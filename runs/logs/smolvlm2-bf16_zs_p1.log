@@ -1,0 +1,22 @@
+[smolvlm2-bf16_zs_p1] loading mlx-community/SmolVLM2-2.2B-Instruct-mlx
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files: 100%|██████████| 12/12 [00:00<00:00, 2137.50it/s]
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files: 100%|██████████| 12/12 [00:00<00:00, 3744.08it/s]
+loaded in 1.1s, weights resident 4.49 GB
+  25/250 acc so far 0.000 p50 2.12s
+  50/250 acc so far 0.500 p50 2.15s
+  75/250 acc so far 0.333 p50 2.16s
+  100/250 acc so far 0.250 p50 2.18s
+  125/250 acc so far 0.200 p50 2.16s
+  150/250 acc so far 0.167 p50 2.13s
+  175/250 acc so far 0.143 p50 2.16s
+  200/250 acc so far 0.125 p50 2.16s
+  225/250 acc so far 0.111 p50 2.16s
+  250/250 acc so far 0.100 p50 2.16s
+{
+  "accuracy": 0.1,
+  "parse_fail_rate": 0.0,
+  "latency_p50_s": 2.156,
+  "latency_p95_s": 3.318,
+  "peak_memory_gb": 5.466
+}
+[smolvlm2-bf16_zs_p1] DONE

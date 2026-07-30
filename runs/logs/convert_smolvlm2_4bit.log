@@ -1,0 +1,7 @@
+<frozen runpy>:128: RuntimeWarning: 'mlx_vlm.convert' found in sys.modules after import of package 'mlx_vlm', but prior to execution of 'mlx_vlm.convert'; this may result in unpredictable behaviour
+Calling `python -m mlx_vlm.convert ...` directly is deprecated. Use `mlx_vlm.convert ...` or `python -m mlx_vlm convert ...` instead.
+[INFO] Loading
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files: 100%|██████████| 12/12 [00:00<00:00, 11640.07it/s]
+[INFO] Using dtype: bfloat16
+[INFO] Quantizing
+[INFO] Quantized model with 6.614 bits per weight.

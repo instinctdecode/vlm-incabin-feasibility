@@ -1,0 +1,20 @@
+[qwen7b-4bit_zs_p3] loading mlx-community/Qwen2.5-VL-7B-Instruct-4bit
+loaded in 0.5s, weights resident 5.64 GB
+  25/250 acc so far 0.080 p50 1.00s
+  50/250 acc so far 0.540 p50 1.02s
+  75/250 acc so far 0.613 p50 1.87s
+  100/250 acc so far 0.460 p50 1.95s
+  125/250 acc so far 0.376 p50 2.00s
+  150/250 acc so far 0.313 p50 2.09s
+  175/250 acc so far 0.366 p50 2.11s
+  200/250 acc so far 0.320 p50 2.04s
+  225/250 acc so far 0.289 p50 1.96s
+  250/250 acc so far 0.260 p50 1.90s
+{
+  "accuracy": 0.26,
+  "parse_fail_rate": 0.0,
+  "latency_p50_s": 1.898,
+  "latency_p95_s": 2.558,
+  "peak_memory_gb": 6.392
+}
+[qwen7b-4bit_zs_p3] DONE

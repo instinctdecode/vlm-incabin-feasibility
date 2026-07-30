@@ -1,0 +1,91 @@
+{
+  "run_id": "cnn_resnet18",
+  "model": "resnet18",
+  "mode": "cnn_baseline",
+  "prompt": null,
+  "n": 250,
+  "accuracy": 0.88,
+  "per_class_accuracy": {
+    "c0": 0.96,
+    "c1": 0.88,
+    "c2": 1.0,
+    "c3": 0.8,
+    "c4": 1.0,
+    "c5": 0.92,
+    "c6": 0.96,
+    "c7": 1.0,
+    "c8": 0.8,
+    "c9": 0.48
+  },
+  "confusion": {
+    "c0->c0": 24,
+    "c0->c9": 1,
+    "c1->c1": 22,
+    "c1->c6": 3,
+    "c2->c2": 25,
+    "c3->c0": 3,
+    "c3->c3": 20,
+    "c3->c4": 2,
+    "c4->c4": 25,
+    "c5->c0": 2,
+    "c5->c5": 23,
+    "c6->c0": 1,
+    "c6->c6": 24,
+    "c7->c7": 25,
+    "c8->c0": 1,
+    "c8->c4": 3,
+    "c8->c8": 20,
+    "c8->c9": 1,
+    "c9->c0": 11,
+    "c9->c7": 2,
+    "c9->c9": 12
+  },
+  "parse_strict_rate": 1.0,
+  "parse_fallback_rate": 0.0,
+  "parse_fail_rate": 0.0,
+  "latency_p50_s": 0.005,
+  "latency_p95_s": 0.0078,
+  "latency_mean_s": 0.0053,
+  "forward_p50_s": 0.0021,
+  "forward_p95_s": 0.0025,
+  "params_m": 11.182,
+  "model_disk_gb": 0.0448,
+  "train_seconds": 405.5,
+  "train_images": 14709,
+  "val_best_acc": 0.7942,
+  "history": [
+    {
+      "epoch": 1,
+      "val_acc": 0.7942
+    },
+    {
+      "epoch": 2,
+      "val_acc": 0.7382
+    },
+    {
+      "epoch": 3,
+      "val_acc": 0.7595
+    },
+    {
+      "epoch": 4,
+      "val_acc": 0.7483
+    },
+    {
+      "epoch": 5,
+      "val_acc": 0.7808
+    },
+    {
+      "epoch": 6,
+      "val_acc": 0.7812
+    },
+    {
+      "epoch": 7,
+      "val_acc": 0.77
+    },
+    {
+      "epoch": 8,
+      "val_acc": 0.7633
+    }
+  ],
+  "peak_memory_gb": 3.333
+}

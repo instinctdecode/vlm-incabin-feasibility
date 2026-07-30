@@ -1,0 +1,24 @@
+{
+  "run_id": "smolvlm2-bf16_zs_p3",
+  "model": "mlx-community/SmolVLM2-2.2B-Instruct-mlx",
+  "mode": "zeroshot",
+  "prompt": "p3",
+  "frames": 1,
+  "fewshot_per_class": 0,
+  "fusion_hr": null,
+  "n_eval": 250,
+  "warmup": 3,
+  "max_tokens": 96,
+  "temperature": 0.0,
+  "image_resolution": "query native 640x480",
+  "host": {
+    "machine": "Apple M4 Max 128GB",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "mlx": "0.32.0"
+  },
+  "manifest_sha256": "d8c7feee9106d4d458b5db78cbde3fe50562c3e6f0ad494ef42006503e82db5a",
+  "load_seconds": 0.86,
+  "weights_resident_gb": 4.494,
+  "model_disk_gb": 4.499,
+  "latency_note": "Measured on Apple M4 Max; NOT automotive-SoC latency. Use only for relative comparison."
+}

@@ -1,0 +1,29 @@
+{
+  "n": 2700,
+  "per_class": 300,
+  "seed": 20260725,
+  "excluded_classes": [
+    "c9"
+  ],
+  "subjects": [
+    "p021",
+    "p024",
+    "p026",
+    "p035",
+    "p039",
+    "p041",
+    "p047",
+    "p049",
+    "p051",
+    "p052",
+    "p056",
+    "p061",
+    "p064",
+    "p066",
+    "p072",
+    "p075",
+    "p081"
+  ],
+  "train_jsonl_sha256": "fb7d854d5b66ec4bccd577c5f295af19a3e7e9371008bf9fc96620b8b4021e80",
+  "prompt": "p1 (identical to zero-shot evaluation prompt)"
+}

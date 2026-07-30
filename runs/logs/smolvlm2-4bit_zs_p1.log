@@ -1,0 +1,20 @@
+[smolvlm2-4bit_zs_p1] loading models/smolvlm2-2.2b-4bit
+loaded in 0.2s, weights resident 1.86 GB
+  25/250 acc so far 0.080 p50 0.94s
+  50/250 acc so far 0.540 p50 0.94s
+  75/250 acc so far 0.360 p50 0.96s
+  100/250 acc so far 0.270 p50 0.96s
+  125/250 acc so far 0.216 p50 0.96s
+  150/250 acc so far 0.180 p50 0.96s
+  175/250 acc so far 0.154 p50 0.96s
+  200/250 acc so far 0.135 p50 0.97s
+  225/250 acc so far 0.120 p50 0.97s
+  250/250 acc so far 0.108 p50 0.98s
+{
+  "accuracy": 0.108,
+  "parse_fail_rate": 0.0,
+  "latency_p50_s": 0.975,
+  "latency_p95_s": 1.221,
+  "peak_memory_gb": 2.911
+}
+[smolvlm2-4bit_zs_p1] DONE

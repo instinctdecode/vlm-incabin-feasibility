@@ -1,0 +1,17 @@
+{
+  "qwen3b-4bit-base_desc": [
+    "The driver in the in-cabin image is sitting in the driver's seat of a car, wearing a light blue sweater and a gray scarf. He appears to be looking ahead, possibly focusing on the road ahead.",
+    "The driver in the in-cabin image is sitting in the driver's seat of a car, wearing glasses and a light blue hoodie.",
+    "The driver in the in-cabin image is sitting in the driver's seat of a car, wearing glasses and a light blue shirt."
+  ],
+  "qwen3b-4bit-ftfull_desc": [
+    "\"}",
+    "\"}",
+    "\"}"
+  ],
+  "qwen3b-4bit-ftholdout_desc": [
+    "{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"",
+    "{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"",
+    "{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\"class\": \"{\""
+  ]
+}

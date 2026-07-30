@@ -1,0 +1,39 @@
+=== model=mlx-community/Qwen2.5-VL-3B-Instruct-4bit mlx=0.32.0 mlx-vlm=0.6.7 platform=macOS-26.5.2-arm64-arm-64bit ===
+[control text-only ~4338 tok] -> DEGENERATE(repetition)   out='<|im_start|>\n<|im_start|>\n<|im_start|>\n'
+[k= 1 images,   225 prompt tok] -> OK                       out='4'
+[k= 2 images,   419 prompt tok] -> OK                       out='2'
+[k= 4 images,   807 prompt tok] -> OK                       out='4'
+[k= 6 images,  1195 prompt tok] -> OK                       out='5'
+[k= 8 images,  1583 prompt tok] -> OK                       out='10'
+[k=10 images,  1971 prompt tok] -> OK                       out='10'
+[k=11 images,  2165 prompt tok] -> DEGENERATE(repetition)   out='<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_sta'
+[k=12 images,  2359 prompt tok] -> DEGENERATE(repetition)   out='<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_sta'
+[k=14 images,  2747 prompt tok] -> DEGENERATE(empty)        out=''
+[k=11 images,  2165 tok, prefill=8192] -> OK                       out='10' (long prompt, chunking OFF -> expect OK)
+[k= 6 images,  1195 tok, prefill=512] -> DEGENERATE(repetition)   out='<|im_start|>\n<|im_start|>\n<|im_start|>\n<' (short prompt, chunking FORCED -> expect DEGENERATE)
+[text-only ~4.3k tok, prefill=8192] -> OK                       out='4' (text-only, chunking OFF -> expect OK)
+[control mlx-lm 0.31.3 text-only 4348 tok, default chunking] -> OK                       out='4'
+
+=== model=mlx-community/Qwen2.5-VL-3B-Instruct-bf16 mlx=0.32.0 mlx-vlm=0.6.7 platform=macOS-26.5.2-arm64-arm-64bit ===
+[control text-only ~4338 tok] -> DEGENERATE(empty)        out=''
+[k=11 images,  2165 prompt tok] -> DEGENERATE(repetition)   out='<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_sta'
+[k=11 images,  2165 tok, prefill=8192] -> OK                       out='10' (long prompt, chunking OFF -> expect OK)
+[k= 6 images,  1195 tok, prefill=512] -> DEGENERATE(repetition)   out='<|im_start|>\n<|im_start|>\n<|im_start|>\n<' (short prompt, chunking FORCED -> expect DEGENERATE)
+[text-only ~4.3k tok, prefill=8192] -> OK                       out='4' (text-only, chunking OFF -> expect OK)
+
+=== model=mlx-community/Qwen2.5-VL-7B-Instruct-4bit mlx=0.32.0 mlx-vlm=0.6.7 platform=macOS-26.5.2-arm64-arm-64bit ===
+[control text-only ~4338 tok] -> DEGENERATE(empty)        out=''
+[k=10 images,  1971 prompt tok] -> OK                       out='10'
+[k=11 images,  2165 prompt tok] -> DEGENERATE(repetition)   out=' addCriterion'
+[k=11 images,  2165 tok, prefill=8192] -> OK                       out='10' (long prompt, chunking OFF -> expect OK)
+[k= 6 images,  1195 tok, prefill=512] -> DEGENERATE(repetition)   out=' addCriterion' (short prompt, chunking FORCED -> expect DEGENERATE)
+[text-only ~4.3k tok, prefill=8192] -> OK                       out='4' (text-only, chunking OFF -> expect OK)
+
+=== model=mlx-community/Qwen2.5-VL-3B-Instruct-4bit mlx=0.32.0 mlx-vlm=0.6.8 platform=macOS-26.5.2-arm64-arm-64bit ===
+[control text-only ~4338 tok] -> DEGENERATE(repetition)   out='<|im_start|>\n<|im_start|>\n<|im_start|>\n'
+[k=10 images,  1971 prompt tok] -> OK                       out='10'
+[k=11 images,  2165 prompt tok] -> DEGENERATE(repetition)   out='<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_start|>\n<|im_sta'
+[k=11 images,  2165 tok, prefill=8192] -> OK                       out='10' (long prompt, chunking OFF -> expect OK)
+[k= 6 images,  1195 tok, prefill=512] -> DEGENERATE(repetition)   out='<|im_start|>\n<|im_start|>\n<|im_start|>\n<' (short prompt, chunking FORCED -> expect DEGENERATE)
+[text-only ~4.3k tok, prefill=8192] -> OK                       out='4' (text-only, chunking OFF -> expect OK)
+

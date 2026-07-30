@@ -1,0 +1,43 @@
+{
+  "run_id": "cnn_resnet18",
+  "arch": "resnet18",
+  "epochs": 8,
+  "batch": 64,
+  "lr": 0.0003,
+  "device": "mps",
+  "train_subjects": [
+    "p021",
+    "p024",
+    "p026",
+    "p035",
+    "p039",
+    "p041",
+    "p047",
+    "p049",
+    "p051",
+    "p052",
+    "p056",
+    "p061",
+    "p064",
+    "p066",
+    "p072",
+    "p075",
+    "p081"
+  ],
+  "val_subjects": [
+    "p002",
+    "p015",
+    "p016"
+  ],
+  "n_train": 14709,
+  "n_val": 2678,
+  "augment": "RandomResizedCrop(224,0.75-1.0)+ColorJitter(0.2) \u2014 no hflip (left/right is label-bearing)",
+  "pretrained": "ImageNet1K",
+  "manifest_sha256": "d8c7feee9106d4d458b5db78cbde3fe50562c3e6f0ad494ef42006503e82db5a",
+  "host": {
+    "machine": "Apple M4 Max 128GB",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "torch": "2.13.0"
+  },
+  "latency_note": "Measured on Apple M4 Max; NOT automotive-SoC latency."
+}

@@ -1,0 +1,42 @@
+{
+  "seed": 20260725,
+  "eval_subjects": [
+    "p012",
+    "p014",
+    "p022",
+    "p042",
+    "p045",
+    "p050"
+  ],
+  "cnn_val_subjects": [
+    "p002",
+    "p015",
+    "p016"
+  ],
+  "cnn_train_subjects": [
+    "p021",
+    "p024",
+    "p026",
+    "p035",
+    "p039",
+    "p041",
+    "p047",
+    "p049",
+    "p051",
+    "p052",
+    "p056",
+    "p061",
+    "p064",
+    "p066",
+    "p072",
+    "p075",
+    "p081"
+  ],
+  "per_class": 25,
+  "n_eval": 250,
+  "manifest_sha256": "d8c7feee9106d4d458b5db78cbde3fe50562c3e6f0ad494ef42006503e82db5a",
+  "fewshot_manifest_sha256": "02bf93e383c81340d90d8939bf1336f1b362a300edbf8339824c3372372f80e2",
+  "frames_map_sha256": "39d2fda0c3b1d6c878736842267616fdbd32e071f4af0f1e9d4b2e6577304732",
+  "data_root": "data/raw_hf/extracted",
+  "train_dir": "data/raw_hf/extracted/imgs/train"
+}

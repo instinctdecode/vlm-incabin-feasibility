@@ -1,0 +1,21 @@
+Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to $HOME/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
+  0%|          | 0.00/44.7M [00:00<?, ?B/s]  4%|▎         | 1.62M/44.7M [00:00<00:02, 17.0MB/s] 13%|█▎        | 5.62M/44.7M [00:00<00:01, 31.7MB/s] 23%|██▎       | 10.4M/44.7M [00:00<00:00, 36.5MB/s] 37%|███▋      | 16.6M/44.7M [00:00<00:00, 35.6MB/s] 49%|████▊     | 21.8M/44.7M [00:00<00:00, 39.4MB/s] 67%|██████▋   | 30.0M/44.7M [00:00<00:00, 52.7MB/s] 80%|███████▉  | 35.6M/44.7M [00:00<00:00, 53.9MB/s] 92%|█████████▏| 41.0M/44.7M [00:01<00:00, 43.3MB/s]100%|██████████| 44.7M/44.7M [00:01<00:00, 43.6MB/s]
+[cnn_resnet18] arch=resnet18 params=11.18M train=14709 val=2678 device=mps
+  epoch 1/8 val_acc=0.7942
+  epoch 2/8 val_acc=0.7382
+  epoch 3/8 val_acc=0.7595
+  epoch 4/8 val_acc=0.7483
+  epoch 5/8 val_acc=0.7808
+  epoch 6/8 val_acc=0.7812
+  epoch 7/8 val_acc=0.7700
+  epoch 8/8 val_acc=0.7633
+{
+  "accuracy": 0.88,
+  "latency_p50_s": 0.005,
+  "forward_p50_s": 0.0021,
+  "params_m": 11.182,
+  "model_disk_gb": 0.0448,
+  "train_seconds": 405.5,
+  "val_best_acc": 0.7942
+}
+[cnn_resnet18] DONE

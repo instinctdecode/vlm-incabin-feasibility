@@ -1,0 +1,901 @@
+{
+ "research": [
+  {
+   "claims": [
+    {
+     "topic": "Qualcomm SA8155P — AI performance and memory interface",
+     "claim": "Qualcomm's official SA8155P product brief states the SoC's machine learning subsystem delivers more than 10 TOPS while consuming less than 7 W, and that the chip supports a 4x16-bit LPDDR4X memory interface with up to 68 GBps bandwidth.",
+     "quote": "highly efficient machine learning architecture consuming less than 7 W to deliver > 10 TOPS of performance ... 4x16 LPDDR4X support—Up to 68 GBps",
+     "source_title": "Qualcomm SA8155P Product Brief (PDF)",
+     "source_url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/qul7413_sa8155_productbrief_r4.pdf",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Qualcomm SA8155P — reference/development platform RAM",
+     "claim": "The Thundercomm SA8155P Automotive Development Platform ships with 8 GB LPDDR4X (2 x 4 GB, 2x32 with ECC) and 128 GB UFS storage, indicating the baseline memory configuration Qualcomm's ecosystem targets for SA8155P head units.",
+     "quote": "2 × 32 LPDDR4X with ECC ... LPDDR4X:2x4GByte ... UFS: 128 GBytes",
+     "source_title": "SA8155P Automotive Development Platform - Thundercomm",
+     "source_url": "https://www.thundercomm.com/product/sa8155p-automotive-development-platform/",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Qualcomm SA8155P — production vehicle head unit RAM",
+     "claim": "The Li Auto L9 production SUV's infotainment system uses two Qualcomm SA8155P chips paired with 24 GB of RAM and 256 GB of storage (i.e., roughly 12 GB per SA8155P chip).",
+     "quote": "two Qualcomm SA8155P chips for the automotive industry. It's paired with 24GB of RAM and 256GB of high-speed internal storage.",
+     "source_title": "Li L9 interior teased, to debut during this year's Beijing Auto Show - ArenaEV",
+     "source_url": "https://m.arenaev.com/li_li_l9_interior_teased_to_debut_during_this_years_beijing_auto_show-news-76.php",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Qualcomm SA8295P — AI performance (TOPS)",
+     "claim": "The Snapdragon 8295 (SA8295P, 4th-gen Snapdragon Cockpit, 5 nm) has an NPU rated at 30 TOPS for AI, eight times the AI compute of the 8155 chip.",
+     "quote": "The 8295 chip's NPU for AI learning has 30 Tops of computing power, twice that of Apple's A15 and eight times that of the 8155 chip.",
+     "source_title": "Jidu's first model to feature Qualcomm Snapdragon 8295 chip based on 5nm process - CnEVPost",
+     "source_url": "https://cnevpost.com/2021/11/29/jidus-first-model-to-feature-qualcomm-snapdragon-8295-chip-based-on-5nm-process/",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Qualcomm SA8295P — reference platform RAM",
+     "claim": "The Lantronix SA8295P Automotive Development Platform (built around the QAM8295P module with two 556-ball LPDDR4X SDRAM packages) provides 16 GB of eight-channel 2133 MHz LPDDR4X (8 x 16-bit) plus two UFS 3.1 storage devices.",
+     "quote": "Eight-channel high-speed memory – 2133 MHz LPDDR4X SDRAM with optional low-power features (8 x 16-bit); 16 GB",
+     "source_title": "SA8295P Automotive Development Platform Product Brief - Lantronix (PDF)",
+     "source_url": "https://cdn.lantronix.com/wp-content/uploads/pdf/MPB-00130-RevB-SA8295P-A4.pdf",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "TI TDA4VM — TOPS and DDR interface",
+     "claim": "TI's TDA4VM provides up to 8 TOPS (8-bit) of deep-learning performance via its matrix multiply accelerator at 1.0 GHz, with an external memory interface supporting LPDDR4 up to 4266 MT/s on a 32-bit data bus with inline ECC.",
+     "quote": "Deep-learning matrix multiply accelerator (MMA), up to 8 TOPS (8b) at 1.0GHz ... Supports LPDDR4 memory types ... 32-bit data bus with inline ECC",
+     "source_title": "TDA4VM data sheet, product information and support | TI.com",
+     "source_url": "https://www.ti.com/product/TDA4VM",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "TI TDA4VM — typical DDR size in edge-AI/DMS designs",
+     "claim": "TI's SK-TDA4VM starter kit (the reference design for TDA4VM edge-AI vision applications) includes 4 GB of LPDDR4-4266 DRAM alongside the 8 TOPS deep-learning accelerator.",
+     "quote": "Memory—DRAM, LPDDR4‐4266, 4 gigabytes total memory, support for inline ECC",
+     "source_title": "SK-TDA4VM Evaluation board | TI.com",
+     "source_url": "https://www.ti.com/tool/SK-TDA4VM",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "TI TDA4VH — TOPS and memory interfaces",
+     "claim": "TI's TDA4VH-Q1 is an ADAS/AV SoC with eight Arm Cortex-A72 cores and 32 TOPS of AI performance, with four LPDDR4 memory interfaces.",
+     "quote": "SoC with Octal Arm® Cortex®-A72, 32 TOPS of AI, C7xDSP, and GPU for vision perception and analytics",
+     "source_title": "TDA4VH-Q1 data sheet, product information and support | TI.com",
+     "source_url": "https://www.ti.com/product/TDA4VH-Q1",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "NVIDIA DRIVE Orin — TOPS",
+     "claim": "NVIDIA states DRIVE AGX Orin delivers up to 254 TOPS of AI performance, while DRIVE AGX Thor delivers more than 1,000 INT8 TOPS (2,000 FP4 TFLOPS).",
+     "quote": "Delivers up to 254 TOPS of AI performance. ... Delivers more than 1,000 INT8 TOPS (2,000 FP4 TFLOPs).",
+     "source_title": "In-Vehicle Computing for Autonomous Vehicles | NVIDIA",
+     "source_url": "https://www.nvidia.com/en-us/self-driving-cars/in-vehicle-computing/",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "NVIDIA Orin — RAM configurations",
+     "claim": "NVIDIA's AGX Orin modules (same Orin SoC family used in DRIVE) ship in 32 GB and 64 GB 256-bit LPDDR5 configurations at 204.8 GB/s memory bandwidth, rated at 248 TOPS and 275 TOPS respectively.",
+     "quote": "64GB 256-bit LPDDR5 204.8GB/s ... 275 TOPS; 32GB 256-bit LPDDR5 204.8GB/s ... 248 TOPs",
+     "source_title": "Jetson AGX Orin for Next-Gen Robotics | NVIDIA",
+     "source_url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "NVIDIA DRIVE Thor — RAM configuration",
+     "claim": "The NVIDIA DRIVE AGX Thor Developer Kit is configured with 64 GB of LPDDR5X at 4266 MHz, 273 GB/s memory bandwidth, and 256 GB UFS storage, with AI compute of up to 1,000 INT8 TOPS / 2,000 FP4 TFLOPS.",
+     "quote": "64 GB LPDDR5X @ 4266 MHz ... 273 GB/s LPDDR5X ... Up to 1,000 INT8 TFLOPS; 2,000 FP4 TFLOPS",
+     "source_title": "Accelerate Autonomous Vehicle Development with the NVIDIA DRIVE AGX Thor Developer Kit (NVIDIA, republished by Edge AI and Vision Alliance)",
+     "source_url": "https://www.edge-ai-vision.com/2025/09/accelerate-autonomous-vehicle-development-with-the-nvidia-drive-agx-thor-developer-kit/",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "DMS resource allocation on a shared SoC (quantified)",
+     "claim": "Cipia's Driver Sense DMS on Ambarella's CV28 SoC uses only a fraction of the chip when configured for regulation: the Euro-NCAP-compliant basic DMS uses 50% of the SoC's Arm cores and 10% of the CVflow AI engine, while the advanced DMS (driver ID, phone use, smoking, seatbelt detection) uses 60% of the Arm cores and 35% of the CVflow AI engine.",
+     "quote": "The Euro-compliant basic DMS utilizes only 50% of the SoC's total Arm cores and 10% of the CVflow engine's AI processing power. The advanced DMS setup ... utilizes 60% of the total Arm cores and 35% of the CVflow AI engine.",
+     "source_title": "Cipia's Driver Sense DMS now available on Ambarella's CV28 Automotive SoC (press release)",
+     "source_url": "https://www.prnewswire.com/il/news-releases/cipias-driver-sense-dms-now-available-on-ambarellas-cv28-automotive-soc-301533978.html",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "DMS footprint on shared cockpit SoCs (qualitative vendor statement)",
+     "claim": "Smart Eye markets its production automotive DMS software as hardware-agnostic with 'the best performance on the smallest CPU footprint on the market,' reflecting that DMS is expected to consume only a small share of a shared cockpit SoC's resources; no quantitative memory budget is published.",
+     "quote": "the best performance on the smallest CPU footprint on the market",
+     "source_title": "Driver Monitoring System (DMS) - Smart Eye",
+     "source_url": "https://smarteye.se/solutions/automotive/driver-monitoring-system/",
+     "access_date": "2026-07-25"
+    }
+   ],
+   "summary": "Memory and compute budgets of automotive cockpit/DMS SoC platforms, from public primary sources (accessed 2026-07-25). Qualcomm SA8155P (3rd-gen Snapdragon Cockpit): Qualcomm's product brief rates the ML subsystem at >10 TOPS under 7 W with a 4x16 LPDDR4X interface up to 68 GBps; the Thundercomm reference platform carries 8 GB LPDDR4X, while a documented production example (Li Auto L9) pairs two SA8155P chips with 24 GB RAM total (~12 GB per chip) — so 8-12 GB per SA8155P head unit is typical. Qualcomm SA8295P (4th-gen, 5 nm): NPU widely reported at 30 TOPS (8x the 8155); the Lantronix/Qualcomm QAM8295P development platform carries 16 GB of eight-channel LPDDR4X at 2133 MHz. TI Jacinto: TDA4VM offers 8 TOPS (INT8) with a single 32-bit LPDDR4-4266 interface, and TI's SK-TDA4VM edge-AI kit ships with just 4 GB LPDDR4 — representative of dedicated DMS/front-camera designs; TDA4VH-Q1 scales to 32 TOPS with four LPDDR4 interfaces. NVIDIA: DRIVE AGX Orin delivers up to 254 TOPS, with Orin modules shipping in 32 GB/64 GB 256-bit LPDDR5 (204.8 GB/s) configurations; DRIVE AGX Thor delivers >1,000 INT8 TOPS (2,000 FP4 TFLOPS) and its developer kit carries 64 GB LPDDR5X at 273 GB/s. On DMS allocation within shared SoCs: quantitative public data is scarce, but Cipia discloses that on Ambarella's CV28 a Euro-NCAP-compliant basic DMS uses 50% of Arm cores and only 10% of the AI engine (60%/35% for the advanced config), and Smart Eye advertises the 'smallest CPU footprint on the market' — supporting the assumption that a DMS function is budgeted only a small fraction (roughly single-digit TOPS and low single-digit GB of RAM) of a cockpit SoC that it shares with IVI/cluster workloads. Implication for the feasibility study: SA8155P-class head units (8-12 GB shared RAM, ~10 TOPS NPU) leave little headroom for a resident 2B-7B VLM; SA8295P-class (16 GB+, 30 TOPS) is marginal but plausible for a quantized 2-3B model; Orin/Thor-class (32-64 GB, 254-1,000+ TOPS) has ample headroom."
+  },
+  {
+   "claims": [
+    {
+     "topic": "TI TIDL on TDA4x - transformer operator support introduced in SDK 9.1",
+     "claim": "TI's TIDL added vision-transformer support in Processor SDK 9.1 (edgeai-tidl-tools tag 09_01_00_05, dated 2024-01-04): basic transformer classification models ViT and DeiT via matmul, layernorm and softmax operators, plus partial Swin Transformer support. At that release, attention softmax was 8-bit only with a ~30x performance gap and attention MatMul supported max 3-D tensors with a ~5x gap for variable-input MatMuls, with closure targeted for SDK 9.2.",
+     "quote": "SDK 9.1  Supports **Basic transformer (classification)**  ViT, Deit (matmul, layernorm, softmax) and Partial support of SwinT.",
+     "source_title": "TIDL Vision Transformers documentation (edgeai-tidl-tools, tag 09_01_00_05)",
+     "source_url": "https://github.com/TexasInstruments/edgeai-tidl-tools/blob/09_01_00_05/docs/tidl_fsg_vtfr.md",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "TI TIDL on TDA4x - current transformer operator status (11.x SDK line)",
+     "claim": "In the current edgeai-tidl-tools documentation (master branch; latest release 11_02_17_00 published 2026-07-06), the functional limitations for Attention-MatMul and Attention-Softmax are listed as 'None' (softmax limited to width and height axes), and TIDL states it has validated DEIT, SWIN, DETR and Segformer transformer models, supported via ONNX models only with ONNX-RT optimization level set to ORT_DISABLE_ALL.",
+     "quote": "TIDL currently supports vision transformers via ONNX models only ... Support for the following models has been added, DEIT, SWIN, DETR, Segformer",
+     "source_title": "TIDL Vision Transformers documentation (edgeai-tidl-tools, master)",
+     "source_url": "https://github.com/TexasInstruments/edgeai-tidl-tools/blob/master/docs/vision_transformers.md",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "TI TIDL on TDA4x - GELU/Erf operator mapping restriction",
+     "claim": "TIDL supports GELU by pattern-matching a sequence of ONNX operators into its Batchnorm layer; the Erf operator is not supported in isolation, only as part of the GELU pattern, and LayerNorm is supported only along the width (lowest) axis.",
+     "quote": "Individual operator Erf is not supported in isolation and is only supported if it is a part of GELU pattern",
+     "source_title": "TIDL Vision Transformers documentation (edgeai-tidl-tools, master)",
+     "source_url": "https://github.com/TexasInstruments/edgeai-tidl-tools/blob/master/docs/vision_transformers.md",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Qualcomm Hexagon NPU automotive - LLMs in AI Hub automotive catalog",
+     "claim": "Qualcomm AI Hub's Automotive section (accessed 2026-07-25) covers five automotive chipsets - SA7255P, SA8255P, SA8295P, SA8650P and SA8775P - and its automotive model catalog includes the LLMs Llama-v3.2-1B-Instruct, Llama-v3.2-3B-Instruct and Llama-v3.2-3B-Instruct-SSD (self-speculative decoding), plus transformer models such as BERT and BEiT.",
+     "quote": "Llama-v3.2-3B-Instruct ... State-of-the-art large language model",
+     "source_title": "Qualcomm AI Hub - Automotive Models",
+     "source_url": "https://aihub.qualcomm.com/automotive/models",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Qualcomm Hexagon NPU automotive - Llama 3.2 1B chipset support detail",
+     "claim": "The Qualcomm AI Hub page for Llama-v3.2-1B-Instruct lists Qualcomm SA8295P and SA8775P as supported automotive chipsets, with supported automotive development platforms including the SA8650P ADP; the deployment uses 4-bit weight quantization ('w4 (4-bit weights) and part of the model is quantized to w8 (8-bit weights)'). Note: as of the access date the page shows no automotive tokens/sec figures, and the sibling Llama-v3.2-3B page carries the caveat 'This model is currently not supported on any Automotive chipset' alongside its SA8295P/SA8775P listing, so per-chipset support should be re-verified in the AI Hub before committing to it.",
+     "quote": "w4 (4-bit weights) and part of the model is quantized to w8 (8-bit weights)",
+     "source_title": "Qualcomm AI Hub - Llama-v3.2-1B-Instruct (Automotive)",
+     "source_url": "https://aihub.qualcomm.com/automotive/models/llama_v3_2_1b_instruct",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Qualcomm Snapdragon Ride - transformer/VLM claims in official whitepaper",
+     "claim": "Qualcomm's Snapdragon Ride whitepaper states that the flagship Snapdragon Ride Elite platform can host large vision language models together with end-to-end transformer networks, and that the custom-built NPU (independent from the GPU) excels at large CNNs and multi-layer transformer networks; it also describes generative AI with large vision models predicting driver behavior. This positions VLM/transformer hosting on the Ride Elite tier rather than on SA8295P/SA8650 specifically.",
+     "quote": "The flagship Snapdragon Ride Elite platform can support more than 40 multimodal sensors including cameras, radar, lidar, ultrasonic, and host large vision language models (VLMs) together with end-to-end (E2E) transformer networks, depending on the use cases.",
+     "source_title": "Snapdragon Ride: A foundational platform for automakers (Qualcomm whitepaper, PDF)",
+     "source_url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-Ride-GLOBAL-whitepaper.pdf",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Automotive embedded SLM reference point - Cerence CaLLM Edge (3.8B params)",
+     "claim": "Cerence announced CaLLM Edge on 2024-11-13, an automotive-grade embedded small language model fine-tuned on Microsoft's Phi-3 family, with 3.8 billion parameters, 4k context size and 4-bit quantization, designed to run embedded in the automotive head unit without connectivity - a public proof point that ~4B-parameter LLMs are being productized for automotive head-unit SoCs.",
+     "quote": "With 3.8 billion parameters, 4k context size, and 4-bit quantization, this model fits comfortably when embedded in the automotive headunit.",
+     "source_title": "Cerence Introduces Pioneering Embedded Small Language Model, Purpose-Built for Automotive (GlobeNewswire)",
+     "source_url": "https://www.globenewswire.com/news-release/2024/11/13/2980461/0/en/Cerence-Introduces-Pioneering-Embedded-Small-Language-Model-Purpose-Built-for-Automotive.html",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Ambarella N1 - on-chip LLM demos and claimed model sizes",
+     "claim": "Ambarella announced on 2024-01-08 (CES) that its N1 SoC series runs 1-to-34-billion-parameter multi-modal LLMs, including Llama2-13B at up to 25 output tokens per second in single-streaming mode at under 50 W, and LLaVA for multi-modal vision analysis of up to 32 camera sources; the N1 is based on the CV3-HD architecture initially developed for autonomous driving.",
+     "quote": "runs Llama2-13B with up to 25 output tokens per second in single-streaming mode ... Based on Ambarella's powerful CV3-HD architecture, initially developed for autonomous driving applications",
+     "source_title": "Ambarella Brings Generative AI Capabilities to Edge Devices; Introduces N1 SoC Series (Ambarella press release)",
+     "source_url": "https://www.ambarella.com/news/ambarella-brings-generative-ai-capabilities-to-edge-devices-introduces-n1-system-on-chip-series-for-on-premise-applications/",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Ambarella CV3-AD - LLM/VLM demonstrated on automotive chip",
+     "claim": "In its CES 2025 recap blog, Ambarella states it demonstrated an LLM running on its CV3-AD automotive AI domain controller SoC that described automotive scenes, alongside live GenAI VLM scene analysis in its autonomous-driving demo vehicles; the same post introduces the N1-655 edge GenAI SoC targeting multi-channel VLM processing in under 20 watts.",
+     "quote": "an LLM running on CV3-AD that described automotive scenes",
+     "source_title": "Advancing GenAI at the Edge During CES 2025 (Ambarella blog)",
+     "source_url": "https://www.ambarella.com/blog/advancing-genai-at-the-edge-during-ces-2025/",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Ambarella N1-655 - supported open VLM/LLM families at 20 W",
+     "claim": "Ambarella's N1-655 announcement (2025-01-07) states the SoC runs the Phi, Gemma, LLaVA-OneVision and Llama model families for on-premise multi-channel VLM and neural network processing while consuming only 20 watts of power.",
+     "quote": "the Phi, Gemma, LLaVA-OneVision and Llama models ... consuming only 20 watts of power",
+     "source_title": "Ambarella Expands N1 Edge GenAI Family With SoC Targeted at On-Premise Multi-Channel VLM and NN Processing in Under 20 Watts",
+     "source_url": "https://www.ambarella.com/news/ambarella-expands-n1-edge-genai-family-with-soc-targeted-at-on-premise-multi-channel-vlm-and-nn-processing-in-under-20-watts/",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "NXP i.MX 95 / eIQ - LLM (transformer) enablement via eIQ GenAI Flow",
+     "claim": "NXP announced eIQ GenAI Flow on 2024-11-01, providing 'the building blocks for Large Language Models (LLMs)' plus Retrieval Augmented Generation for its i.MX applications processors including i.MX 95. NXP's public GenAI Flow demonstrator (GitHub, accessed 2026-07-25) puts i.MX 95 in the 'High Performance' tier running the full wake-word/STT/RAG/LLM/TTS pipeline with danube-500M LLMs in int8/int4, and states NPU acceleration of LLM inference is available on i.MX 95 B0 via the eIQ Neutron NPU (requiring >3 GB CMA and the --use-neutron flag). No equivalent public transformer/LLM enablement was found for the S32 automotive family in this search.",
+     "quote": "NPU acceleration can be used for LLM inference on `i.MX 95 B0`. It requires the BSP to have an extended CMA (> 3GB) for Neutron NPU.",
+     "source_title": "NXP eIQ GenAI Flow demonstrator README (nxp-appcodehub); NXP eIQ announcement via Edge AI and Vision Alliance",
+     "source_url": "https://github.com/nxp-appcodehub/dm-eiq-genai-flow-demonstrator/blob/main/eiq_genai_flow/README.md",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Renesas R-Car V4H - AI accelerator with no public transformer support claim",
+     "claim": "Renesas' R-Car V4H product page specifies up to 34 TOPS of deep learning performance at 16 TOPS/W from dedicated deep learning and computer vision IPs (a CNN accelerator plus DSPs), and as of 2026-07-25 the page contains no mention of transformer or generative AI support - indicating no publicly documented transformer operator support for the V4H generation.",
+     "quote": "The R-Car V4H offers up to 34 TOPS of highly efficient deep learning performance. ... State-of-the-art R-Car deep learning technology at low power consumption: 16 TOPS/Watt",
+     "source_title": "R-Car V4H - Renesas product page",
+     "source_url": "https://www.renesas.com/en/products/r-car-v4h",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Renesas R-Car X5H (Gen 5) - LLM/generative AI claims",
+     "claim": "Renesas announced the R-Car X5H on 2024-11-13 as a 3nm multi-domain SoC with AI acceleration of up to 400 TOPS, sampling to select customers in 1H/2025; in its 2025-12-16 Gen 5 platform announcement Renesas explicitly claims that on this platform 'generative AI and Large Language Models (LLMs) enable intelligent human-machine interaction for next-generation AI cockpits' and states Gen 5 silicon sampling has begun - the first explicit LLM claim for R-Car, applying to Gen 5 (X5H), not V4H.",
+     "quote": "generative AI and Large Language Models (LLMs) enable intelligent human-machine interaction for next-generation AI cockpits",
+     "source_title": "Renesas Fast-Tracks SDV Innovation with R-Car Gen 5 SoC-Based End-to-End Multi-Domain Solution Platform (Renesas newsroom)",
+     "source_url": "https://www.renesas.com/en/about/newsroom/renesas-fast-tracks-sdv-innovation-r-car-gen-5-soc-based-end-end-multi-domain-solution-platform",
+     "access_date": "2026-07-25"
+    }
+   ],
+   "summary": "Transformer/LLM/VLM support on automotive-grade NPUs is real but highly uneven as of July 2026. TI TIDL: transformer support began with Processor SDK 9.1 (tag 09_01_00_05, Jan 2024) covering ViT/DeiT via MatMul, LayerNorm and Softmax with severe initial limits (8-bit-only softmax, ~30x perf gap); the current 11.x line removes most functional limits and validates DeiT, Swin, DETR and Segformer, but only vision transformers via ONNX are documented — no LLM/VLM decoder enablement. Qualcomm: the strongest LLM story — AI Hub's automotive catalog (SA7255P/SA8255P/SA8295P/SA8650P/SA8775P) includes Llama-3.2-1B/3B-Instruct in w4/w8 quantization, and the Snapdragon Ride whitepaper claims the NPU excels at multi-layer transformer networks with large VLMs hosted on the Ride Elite tier; the Cerence CaLLM Edge SLM (Phi-3-based, 3.8B params, 4k context, 4-bit) is a shipping-oriented automotive head-unit LLM proof point. Ambarella is the most aggressive public demonstrator: N1 (CV3-HD-derived) runs 1-34B multi-modal LLMs (Llama2-13B at up to 25 tok/s under 50 W, Jan 2024), N1-655 runs Phi/Gemma/LLaVA-OneVision/Llama at 20 W (Jan 2025), and Ambarella showed an LLM describing automotive scenes running on the automotive CV3-AD at CES 2025. NXP: eIQ GenAI Flow (Nov 2024) brings LLM+RAG pipelines to i.MX 95 with Neutron-NPU-accelerated LLM inference on i.MX 95 B0, but demonstrated models are small (danube-500M int8/int4); nothing public found for S32. Renesas: R-Car V4H (34 TOPS CNN accelerator) has no public transformer support claim; explicit generative AI/LLM claims appear only with Gen 5 R-Car X5H (up to 400 TOPS, sampling 2025, LLM-enabled AI cockpit claims Dec 2025). Implication for 2B-7B VLM in-cabin work: Qualcomm and Ambarella have public evidence at the required model scale; TI supports only vision-transformer backbones (useful for the vision encoder, not the LM decoder); NXP is demonstrated only at sub-1B scale; Renesas capability arrives with Gen 5."
+  },
+  {
+   "claims": [
+    {
+     "topic": "Euro NCAP distraction detection - long distraction",
+     "claim": "Euro NCAP's Safe Driving / Driver Engagement protocol (v1.1, October 2025, implementation January 2026) defines a Long Distraction as a single driver gaze away from the forward road lasting between 3 and 4 seconds, which in verification must be preceded by a 4-second on-road gaze; detection is assessed separately for Owl (head) and Lizard (eye) movement types.",
+     "quote": "A long distraction is defined as a single long duration driver gaze away from the forward road between 3 and 4 seconds. During the verification, it shall be ensured that the distraction is preceded by a four second on-road gaze.",
+     "source_title": "Euro NCAP Safe Driving – Driver Engagement Protocol, Version 1.1, October 2025 (Section 1.2.1)",
+     "source_url": "https://cdn.euroncap.com/cars/assets/euro_ncap_protocol_safe_driving_driver_engagement_v11_a30e874152.pdf",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Euro NCAP distraction detection - short distraction (VATS)",
+     "claim": "Euro NCAP defines Short Distraction (Visual Attention Time Sharing, VATS) as glances away from the forward road view accumulating to 10 seconds within a 30-second time period; alternative detection strategies are also eligible for points.",
+     "quote": "It is defined as a driver who glances away from the forward road view for a cumulative 10 seconds within a 30 second time period. Alternative detection strategies are also eligible for points.",
+     "source_title": "Euro NCAP Safe Driving – Driver Engagement Protocol, Version 1.1, October 2025 (Section 1.2.2)",
+     "source_url": "https://cdn.euroncap.com/cars/assets/euro_ncap_protocol_safe_driving_driver_engagement_v11_a30e874152.pdf",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Euro NCAP microsleep and sleep detection",
+     "claim": "Euro NCAP defines a microsleep event as a short-duration eye closure of 1-2 seconds, and classifies a driver as asleep when displaying a continued eye closure of >=3 seconds; each is worth 2 points in the 25-point Driver Monitoring assessment.",
+     "quote": "A driver is considered to be undergoing a microsleep event when displaying a short duration eye closure (1-2 seconds). [...] A driver is deemed asleep when displaying a continued eye closure ≥3 seconds.",
+     "source_title": "Euro NCAP Safe Driving – Driver Engagement Protocol, Version 1.1, October 2025 (Sections 1.3.3, 1.3.4)",
+     "source_url": "https://cdn.euroncap.com/cars/assets/euro_ncap_protocol_safe_driving_driver_engagement_v11_a30e874152.pdf",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Euro NCAP unresponsive driver detection",
+     "claim": "Euro NCAP allows classifying a driver as unresponsive when gaze does not return to the forward road view within 3 seconds after a distraction warning, or when the eyes have been closed for >=6 seconds; the Emergency Function intervention must start no later than 5 seconds after the distinct warning phase begins.",
+     "quote": "A driver may be classified as unresponsive when their gaze does not return to the forward road view within 3 seconds after a distraction warning being issued or when the eyes have been closed for ≥ 6 seconds.",
+     "source_title": "Euro NCAP Safe Driving – Driver Engagement Protocol, Version 1.1, October 2025 (Sections 1.3.5, 1.4.3.3)",
+     "source_url": "https://cdn.euroncap.com/cars/assets/euro_ncap_protocol_safe_driving_driver_engagement_v11_a30e874152.pdf",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Euro NCAP drowsiness detection threshold",
+     "claim": "For drowsiness points, Euro NCAP requires detection of a driver reaching Karolinska Sleepiness Scale (KSS) level >7 at the latest (or an equivalent metric), with the system functional from 50 km/h.",
+     "quote": "Systems capable of detecting a driver reaching a KSS level >7 at the latest, or an equivalent metric appropriate to assess risky levels of drowsiness are eligible to score points. The system shall be functional from 50 km/h.",
+     "source_title": "Euro NCAP Safe Driving – Driver Engagement Protocol, Version 1.1, October 2025 (Section 1.3.2)",
+     "source_url": "https://cdn.euroncap.com/cars/assets/euro_ncap_protocol_safe_driving_driver_engagement_v11_a30e874152.pdf",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Euro NCAP real-time response / latency requirements",
+     "claim": "Euro NCAP requires a visual plus haptic/audible warning to be issued immediately after a driver is classified as distracted at >=20 km/h; coupled FCW/AEB triggering time must differ by at least 200 ms between distracted and attentive drivers, and Forward Support Sensitivity intervention must be activated within <=1 second of any continuous gaze away from the forward road view.",
+     "quote": "FCW and/or AEB systems shall be coupled to the driver state so that the triggering time differs at least 200ms between a distracted and/or impaired driver and an attentive driver [...] the intervention strategy shall be activated ≤ 1 second of any continuous gaze away from forward road view",
+     "source_title": "Euro NCAP Safe Driving – Driver Engagement Protocol, Version 1.1, October 2025 (Sections 1.4.1, 1.4.3.1)",
+     "source_url": "https://cdn.euroncap.com/cars/assets/euro_ncap_protocol_safe_driving_driver_engagement_v11_a30e874152.pdf",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Euro NCAP DSM robustness envelope (noise variables)",
+     "claim": "To score DSM points, Euro NCAP requires functional performance across lighting from daytime 100,000 lux to night-time 1 lux, drivers aged 16-80, Fitzpatrick skin types 1-6, eyelid apertures from 6.0 mm up to 12.0 mm, and clear sunglasses with >70% transmittance (at the camera's operating wavelength); the DSM must start measuring driver state within 1 minute of driving at >=10 km/h.",
+     "quote": "Lighting | Daytime (100,000 lux) – night-time (1 lux) | Functional [...] Eye lid aperture | From 6.0mm up to 12.0mm | Functional",
+     "source_title": "Euro NCAP Safe Driving – Driver Engagement Protocol, Version 1.1, October 2025 (Section 1.1.1)",
+     "source_url": "https://cdn.euroncap.com/cars/assets/euro_ncap_protocol_safe_driving_driver_engagement_v11_a30e874152.pdf",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "EU GSR - DDAW drowsiness warning requirements (Regulation (EU) 2021/1341)",
+     "claim": "Under Commission Delegated Regulation (EU) 2021/1341 (supplementing GSR 2019/2144), the DDAW system must warn the driver at a drowsiness level equivalent to or above 8 on the Karolinska Sleepiness Scale, must be automatically activated above 70 km/h, and must operate normally within 65 km/h to 130 km/h (or the vehicle's maximum allowed speed, whichever is lower).",
+     "quote": "The DDAW system shall provide a warning to the driver at a level of drowsiness which is equivalent to or above 8 on the reference sleepiness scale [...] The DDAW system shall be automatically activated above the speed of 70 km/h",
+     "source_title": "Commission Delegated Regulation (EU) 2021/1341 of 23 April 2021 (DDAW), EUR-Lex",
+     "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R1341",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "EU GSR - DDAW validation criteria and PERCLOS as alternative measure",
+     "claim": "DDAW validation under (EU) 2021/1341 is passed if average sensitivity is above 40% (or the lower bound of the 90% confidence interval of sensitivity results is above 20%), and manufacturers may validate using alternative direct driver-state measurements such as EEG or PERCLOS with documented equivalence to KSS thresholds.",
+     "quote": "the average sensitivity is above 40 % [...] If the alternative method directly monitors the participants' state, such as Electroencephalogram (EEG) or PERCLOS (percentage of eyelid closure)",
+     "source_title": "Commission Delegated Regulation (EU) 2021/1341 of 23 April 2021 (DDAW), EUR-Lex",
+     "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R1341",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "EU GSR - ADDW distraction warning time thresholds (Regulation (EU) 2023/2590)",
+     "claim": "Commission Delegated Regulation (EU) 2023/2590 requires the ADDW system to warn when the driver's gaze dwells in the defined 'Area 3' (distraction area) for a maximum of 3.5 seconds at vehicle speeds of 50 km/h or above, and 6 seconds at speeds of 20 km/h or above; non-nominal situations may extend these limits by an additional 1.5 seconds.",
+     "quote": "(a) vehicle's speed at 50 km/h or above; (b) the gaze of the driver in the Area 3 last for a maximum time of 3,5 seconds in the nominal situation. [...] (a) vehicle's speed at 20 km/h or above; (b) the gaze of the driver in the Area 3 last for a maximum time of 6 seconds in the nominal situation.",
+     "source_title": "Commission Delegated Regulation (EU) 2023/2590 of 13 July 2023 (ADDW), Annex I Part 1, points 3.3.2.1-3.3.2.2, EUR-Lex",
+     "source_url": "https://eur-lex.europa.eu/legal-content/en/TXT/PDF/?uri=OJ%3AL_202302590",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "EU GSR - ADDW timing tolerances and test pass criteria",
+     "claim": "The ADDW regulation sets a minimum gaze-event time tolerance of 50 milliseconds to account for eye saccades, and in testing a measurement is a false negative if no distraction warning is emitted within 4 seconds (including a 0.5-second uncertainty buffer) for the 50 km/h / 3.5-second condition, or within 6.5 seconds for the 20 km/h / 6-second condition.",
+     "quote": "The allowed time tolerance for the events described shall be defined by the vehicle manufacturer, with a minimum time tolerance of 50 milliseconds (eye saccades). [...] no distraction warning is emitted within 4 seconds (which includes a 0,5 second uncertainty buffer)",
+     "source_title": "Commission Delegated Regulation (EU) 2023/2590 of 13 July 2023 (ADDW), EUR-Lex",
+     "source_url": "https://eur-lex.europa.eu/legal-content/en/TXT/PDF/?uri=OJ%3AL_202302590",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "EU GSR - ADDW mandate timeline",
+     "claim": "The ADDW requirement under Regulation (EU) 2019/2144 applies from 7 July 2024 (per recital 6 of Regulation (EU) 2023/2590, which applies from the same date); ADDW systems have been required in all new EU vehicle types since July 2024 and become mandatory for all newly registered vehicles from July 2026.",
+     "quote": "As the requirement for ADDW systems under Regulation (EU) 2019/2144 is to apply from 7 July 2024 (as described in Annex II of Regulation (EU) 2019/2144), this Regulation should apply from the same date.",
+     "source_title": "Commission Delegated Regulation (EU) 2023/2590, recital 6, EUR-Lex (fleet-wide 2026 date corroborated by Seeing Machines: 'They will also become mandatory for all newly registered vehicles from July 2026', https://seeingmachines.com/understanding-advanced-driver-distraction-warning-addw-systems/)",
+     "source_url": "https://eur-lex.europa.eu/legal-content/en/TXT/PDF/?uri=OJ%3AL_202302590",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "PERCLOS definition and accumulation window",
+     "claim": "PERCLOS is the percentage of eyelid closure over the pupil over time (reflecting slow eyelid droops rather than blinks); the metric established by Wierwille et al. (1994) is the proportion of time in a one-minute window that the eyes are at least 80 percent closed, with variants P70 (>=70% closed), P80 (>=80% closed) and EYEMEAS; in the FHWA/NHTSA 42-hour study PERCLOS was the most reliable and valid of the drowsiness measures tested.",
+     "quote": "A PERCLOS drowsiness metric was established in a 1994 driving simulator study as the proportion of time in a minute that the eyes are at least 80 percent closed. (Wierwille et al., 1994)",
+     "source_title": "FHWA Tech Brief FHWA-MCRT-98-006 (October 1998): PERCLOS: A Valid Psychophysiological Measure of Alertness As Assessed by Psychomotor Vigilance",
+     "source_url": "https://ntlrepository.blob.core.windows.net/lib/51000/51300/51369/tb98-006.pdf",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Production DMS camera specs - image sensor resolution and frame rate",
+     "claim": "OMNIVISION's OV2311, a 2-megapixel automotive global-shutter image sensor for driver monitoring systems (AEC-Q100 Grade 2, with ASIL safety features), captures video at up to 60 frames per second at 1600 x 1300 resolution and uses near-infrared imaging with high NIR quantum efficiency to minimize active illumination power.",
+     "quote": "The sensor captures high-quality video up to 60 frames per second (fps) in a 1600 x 1300 resolution format [...] The OV2311 achieves high near-infrared quantum efficiency to minimize active illumination power",
+     "source_title": "OMNIVISION OV2311 product page: Compact, Cost-Effective 2-Megapixel Global Shutter Sensor for Driver Monitoring Systems",
+     "source_url": "https://www.ovt.com/products/ov2311/",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Production DMS camera specs - NIR illumination wavelength",
+     "claim": "According to ams OSRAM (supplier of IR LEDs and VCSELs for automotive in-cabin sensing), most in-cabin sensing systems today operate at 940 nm near-infrared wavelength, with 940 nm emitters (e.g. OSLON Black IR:6 C series) chosen for reduced red glow and robustness against sunlight for driver monitoring under low-light and night-time conditions.",
+     "quote": "Most in-cabin sensing systems today operate at 940 nm wavelength.",
+     "source_title": "ams OSRAM - Automotive & Mobility: In-Cabin Sensing",
+     "source_url": "https://ams-osram.com/applications/automotive-mobility/in-cabin-sensing",
+     "access_date": "2026-07-25"
+    }
+   ],
+   "summary": "Real-time and functional requirements for DMS, from primary sources. (1) Euro NCAP Safe Driving / Driver Engagement Protocol v1.1 (Oct 2025, implementation Jan 2026; PDF read directly): Long Distraction = single 3-4 s off-road gaze (preceded by 4 s on-road); Short Distraction/VATS = cumulative 10 s off-road within a 30 s window; microsleep = 1-2 s eye closure; sleep = continued eye closure >=3 s; unresponsive = no gaze return within 3 s after a warning or eyes closed >=6 s; drowsiness = KSS >7 detection, functional from 50 km/h. Latency-critical items: warning 'immediately' after classification at >=20 km/h, FCW/AEB trigger-time differential >=200 ms between distracted and attentive drivers, forward-support intervention activated <=1 s of continuous off-road gaze, Emergency Function <=5 s after distinct warning. Robustness envelope spans 1-100,000 lux, Fitzpatrick skin types 1-6, eyelid apertures 6-12 mm. (2) EU GSR 2019/2144 delegated acts: DDAW (EU 2021/1341) warns at KSS >=8, auto-activates above 70 km/h, operates 65-130 km/h, validation sensitivity >40% average, PERCLOS/EEG allowed as alternative validation measures; ADDW (EU 2023/2590, applies from 7 July 2024, all new registrations July 2026) warns when gaze dwells in the distraction area >3.5 s at >=50 km/h or >6 s at >=20 km/h, with a 50 ms minimum saccade time tolerance and a 4 s (incl. 0.5 s buffer) false-negative test window. (3) Production DMS cameras: 940 nm NIR active illumination is the industry norm (ams OSRAM), paired with global-shutter NIR sensors such as OMNIVISION OV2311 (1600x1300 at up to 60 fps). (4) PERCLOS (FHWA TechBrief FHWA-MCRT-98-006, 1998): proportion of time in a one-minute window that eyes are >=80% closed (P80; variants P70, EYEMEAS), found the most reliable/valid alertness measure. Implication for a 2B-7B VLM on edge SoC: eye-state/gaze channels need frame-level cadence (50 ms saccade tolerance and 1-2 s microsleep detection imply roughly 30-60 fps perception with sub-second end-to-end classification latency), while drowsiness scoring (KSS/PERCLOS) accumulates over minutes and tolerates slower model cadence."
+  },
+  {
+   "claims": [
+    {
+     "topic": "VLM tokens/s on Jetson Orin Nano",
+     "claim": "NVIDIA's official benchmarks show Qwen2 VL 2B generating 2.8 tokens/sec on the original Jetson Orin Nano 8GB and 4.4 tokens/sec on Jetson Orin Nano Super (JetPack 6.2 Super Mode), a 1.57x gain; the model was run in FP4 precision with Hugging Face Transformers.",
+     "quote": "All VILA and LLAVA models were run with INT4 precision using MLC while the rest of the models were run in FP4 precision with Hugging Face Transformers.",
+     "source_title": "NVIDIA Jetson Orin Nano Developer Kit Gets a \"Super\" Boost | NVIDIA Technical Blog",
+     "source_url": "https://developer.nvidia.com/blog/nvidia-jetson-orin-nano-developer-kit-gets-a-super-boost/",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "VLM tokens/s on Jetson Orin Nano",
+     "claim": "In the same NVIDIA benchmark table (tokens per second), SmolVLM 2B reached 8.1 tokens/sec on the original Jetson Orin Nano and 12.9 tokens/sec on Orin Nano Super (1.59x); other VLM datapoints on Orin Nano Super include VILA 1.5 3B at 1.06, InternVL2.5 4B at 5.1 and PaliGemma2 3B at 21.6 tokens/sec.",
+     "quote": "SmolVLM 2B | 8.1 | 12.9 | 1.59x",
+     "source_title": "NVIDIA Jetson Orin Nano Developer Kit Gets a \"Super\" Boost | NVIDIA Technical Blog",
+     "source_url": "https://developer.nvidia.com/blog/nvidia-jetson-orin-nano-developer-kit-gets-a-super-boost/",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "7B VLM tokens/s on Jetson Orin Nano",
+     "claim": "A 7B-class VLM is very slow on the 8GB Orin Nano: LLaVA 1.6 7B (INT4 via MLC) achieved 0.412 tokens/sec on the original Jetson Orin Nano and 0.57 tokens/sec on Orin Nano Super; VILA 1.5 8B achieved 0.574 and 0.83 tokens/sec respectively.",
+     "quote": "LLAVA 1.6 7B | 0.412 | 0.57 | 1.38x",
+     "source_title": "NVIDIA Jetson Orin Nano Developer Kit Gets a \"Super\" Boost | NVIDIA Technical Blog",
+     "source_url": "https://developer.nvidia.com/blog/nvidia-jetson-orin-nano-developer-kit-gets-a-super-boost/",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Small VLM memory footprint",
+     "claim": "Hugging Face reports minimum GPU RAM required for single-image inference: SmolVLM 2B needs 5.02 GB versus 13.70 GB for Qwen2-VL 2B and 10.52 GB for InternVL2 2B (unquantized); SmolVLM is described as having the best memory usage in its class, largely because it encodes a 384x384 image patch into 81 tokens (1.2k tokens for a test prompt plus one image vs 16k tokens for Qwen2-VL).",
+     "quote": "the best memory usage among the existing suite of vision language models",
+     "source_title": "SmolVLM - small yet mighty Vision Language Model (Hugging Face blog)",
+     "source_url": "https://huggingface.co/blog/smolvlm",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Small VLM throughput advantage",
+     "claim": "Hugging Face reports SmolVLM delivers 3.3 to 4.5 times faster prefill throughput and 7.5 to 16 times faster generation throughput than Qwen2-VL 2B on the same hardware.",
+     "quote": "3.3 to 4.5 times faster ... 7.5 to 16 times faster",
+     "source_title": "SmolVLM - small yet mighty Vision Language Model (Hugging Face blog)",
+     "source_url": "https://huggingface.co/blog/smolvlm",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "7B VLM memory at INT4/INT8",
+     "claim": "The official Qwen2-VL-7B-Instruct-AWQ model card publishes memory/speed benchmarks (batch size 1, generating 2048 tokens, NVIDIA A100 80GB): with a 1-token input, GPU memory use is 16.07 GB in BF16, 10.11 GB with GPTQ-Int8, 7.20 GB with GPTQ-Int4, and 7.07 GB with AWQ (INT4); at 6,144 input tokens AWQ memory grows to 12.56 GB, with generation speeds of roughly 31-43 tokens/sec across quantizations.",
+     "source_title": "Qwen/Qwen2-VL-7B-Instruct-AWQ model card (Hugging Face)",
+     "source_url": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct-AWQ",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "VLM on Snapdragon and Jetson Orin (arXiv)",
+     "claim": "The MobileVLM paper (mobile-scale VLMs built on 1.4B/2.7B language models) reports measured inference speeds of 21.5 tokens/sec on a Qualcomm Snapdragon 888 CPU and 65.3 tokens/sec on an NVIDIA Jetson Orin GPU.",
+     "quote": "we measure the inference speed on both a Qualcomm Snapdragon 888 CPU and an NVIDIA Jeston Orin GPU, and we obtain state-of-the-art performance of 21.5 tokens and 65.3 tokens per second, respectively",
+     "source_title": "MobileVLM: A Fast, Strong and Open Vision Language Assistant for Mobile Devices (arXiv:2312.16886)",
+     "source_url": "https://arxiv.org/abs/2312.16886",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "7B multimodal model on Snapdragon NPU",
+     "claim": "At MWC 2024 Qualcomm demonstrated LLaVA, a 7+ billion parameter large multimodal model, running fully on-device on a Snapdragon-powered Android smartphone at a 'responsive token rate' (no exact tokens/sec published), accepting text and image inputs for multi-turn conversation.",
+     "quote": "For the first time running on an Android smartphone, Qualcomm AI Research is demonstrating Large Language and Vision Assistant (LLaVA), a 7+ billion parameter large multimodal model (LMM) that can accept multiple types of data inputs, including text and images, and generate multi-turn conversations with an AI assistant about an image.",
+     "source_title": "Qualcomm Continues to Bring the Generative AI Revolution to Devices and Empowers Developers with Qualcomm AI Hub (press release, Feb 2024)",
+     "source_url": "https://www.edge-ai-vision.com/2024/02/qualcomm-continues-to-bring-the-generative-ai-revolution-to-devices-and-empowers-developers-with-qualcomm-ai-hub/",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Automotive VLM latency optimization (arXiv)",
+     "claim": "LiteVLM, a low-latency VLM inference pipeline evaluated on the NVIDIA DRIVE Thor automotive platform for autonomous-driving applications, achieves a 2.5x end-to-end latency reduction without accuracy loss, rising to 3.2x with FP8 post-training quantization, via patch selection, token selection, and speculative decoding.",
+     "quote": "2.5x end-to-end latency reduction without compromising task accuracy ... 3.2x when applying FP8 post-training quantization",
+     "source_title": "LiteVLM: A Low-Latency Vision-Language Model Inference Pipeline for Resource-Constrained Environments (arXiv:2506.07416)",
+     "source_url": "https://arxiv.org/abs/2506.07416",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "In-cabin driver monitoring with VLMs (arXiv)",
+     "claim": "A 2026 driver-monitoring paper argues large VLMs cannot serve as always-on in-cabin monitors due to latency and reliability, and instead distills them into a lightweight RGB-physiological student model with 11.39M parameters and 3.08 ms inference latency, using selective inference to invoke larger models only when needed.",
+     "quote": "Large vision-language models provide broad multimodal priors, but their latency and limited reliability in this setting make them unsuitable as always-on in-cabin monitors.",
+     "source_title": "Risk-Aware Selective Multimodal Driver Monitoring with Driver-State World Modeling (arXiv:2606.26922)",
+     "source_url": "https://arxiv.org/abs/2606.26922",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "In-cabin monitoring latency baseline on edge hardware (arXiv)",
+     "claim": "A real-time in-cabin driver behavior recognition system (compact vision model, 17 behavior classes, not a VLM) runs at approximately 16 FPS with INT8 inference on a CPU-only Raspberry Pi 5 (per-frame latency under 60 ms) and approximately 25 FPS on a Google Coral Edge TPU (end-to-end latency around 40 ms), setting a latency baseline that small VLMs would need to approach for always-on DMS.",
+     "quote": "approximately 16 FPS on Raspberry Pi 5 using 8-bit integer (INT8) inference (per-frame latency <60 ms)",
+     "source_title": "Real-Time In-Cabin Driver Behavior Recognition on Low-Cost Edge Hardware (arXiv:2512.22298)",
+     "source_url": "https://arxiv.org/abs/2512.22298",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "In-cabin driver monitoring with VLMs (arXiv)",
+     "claim": "A 2026 study introducing a Drive&Act-based driver activity description dataset found that general-purpose VLMs struggle to recognize fine distinctions in driver behaviors; fine-tuning a VLM on the dataset raised the ACCR score to 76 versus 66 for the zero-shot VLM baseline, with cross-dataset generalization shown on the Driver Monitoring Dataset (DMD).",
+     "quote": "an ACCR score of 76 outperforming the zero-shot VLM baseline with an ACCR score of 66",
+     "source_title": "Vision-language Models for Driver Monitoring Systems: A Driver Activity Description Dataset (arXiv:2606.02273)",
+     "source_url": "https://arxiv.org/abs/2606.02273",
+     "access_date": "2026-07-25"
+    }
+   ],
+   "summary": "Published evidence on small VLMs (1-8B) at the edge is mixed but consistent. On NVIDIA's own Jetson Orin Nano 8GB benchmarks (JetPack 6.2 Super Mode, tokens/sec), 2B-class VLMs are marginal for interactive use — Qwen2 VL 2B: 2.8 to 4.4 tok/s, SmolVLM 2B: 8.1 to 12.9 tok/s — while 7B-class VLMs are effectively non-real-time on that tier (LLaVA 1.6 7B INT4: 0.412 to 0.57 tok/s). Purpose-built mobile VLMs do far better: MobileVLM (arXiv) reports 21.5 tok/s on a Snapdragon 888 CPU and 65.3 tok/s on a Jetson Orin GPU, and Qualcomm demonstrated a 7B+ LLaVA running on-device on a Snapdragon phone (no tok/s published). Memory: the official Qwen2-VL-7B-AWQ card shows a 7B VLM drops from 16.07 GB (BF16) to ~7.07-7.20 GB (INT4/AWQ) and 10.11 GB (INT8) at minimal context, and Hugging Face reports SmolVLM 2B needs 5.02 GB vs 13.70 GB for Qwen2-VL 2B unquantized — so 8GB-class automotive SoCs can hold an INT4 7B VLM but with little headroom, while 2B INT4 models fit comfortably. For automotive: LiteVLM (arXiv, NVIDIA DRIVE Thor) shows 2.5-3.2x end-to-end VLM latency reductions (FP8) are achievable on automotive silicon; in-cabin-specific literature (arXiv 2606.26922, 2606.02273) currently concludes large VLMs are unsuitable as always-on in-cabin monitors due to latency/reliability and that zero-shot VLMs miss fine-grained driver behaviors (ACCR 66 vs 76 fine-tuned), while non-VLM in-cabin systems already hit 40-60 ms/frame on Raspberry Pi 5/Coral-class hardware — suggesting a feasibility posture of small/distilled VLMs for episodic reasoning plus lightweight CNNs for always-on monitoring. Key sources: developer.nvidia.com Orin Nano Super blog, huggingface.co/blog/smolvlm, Qwen2-VL-7B-AWQ model card, arXiv 2312.16886, 2506.07416, 2606.26922, 2512.22298, 2606.02273, and Qualcomm's Feb 2024 AI Hub press release."
+  },
+  {
+   "claims": [
+    {
+     "topic": "Supplier announcement — LG Electronics on-device VLM cabin platform",
+     "claim": "LG Electronics announced (press release dated December 11, 2025, for CES 2026) an 'AI Cabin Platform' that applies vision language models (VLMs), large language models (LLMs) and image generation models to its in-vehicle infotainment system, runs on Qualcomm Snapdragon Cockpit Elite, processes all AI calculations on-device in the vehicle without external servers, and analyzes the driver's condition using internal and external vehicle cameras.",
+     "quote": "all AI calculations are processed on-device and within the vehicle, eliminating the need to communicate with external servers",
+     "source_title": "LG to Showcase Next-generation Mobility Technology Powered by Generative AI at CES 2026",
+     "source_url": "https://www.lg.com/global/mobility/media-center/press-release/20251211-solution-lg-qualcomm-aidv-ces2026",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Supplier announcement — Bosch AI extension platform with in-cabin VLMs",
+     "claim": "Bosch announced (press release dated December 18, 2025, shown at CES 2026) an 'AI extension platform' — an add-on cockpit compute unit built on the NVIDIA DRIVE AGX Orin SoC offering 150 to 200 TOPS of additional compute, connected via power and Ethernet, enabling in-cabin applications such as vision-language models (VLMs), with reasoning and speech powered by NVIDIA Nemotron models.",
+     "quote": "Offering 150 to 200 tera operations per second (TOPS) of additional compute power, the compact unit connects via simple power and Ethernet interfaces. ... This enables seamless integration of advanced in-cabin applications such as real-time sensor processing and vision-language models (VLMs).",
+     "source_title": "AI in the car: Bosch presents cockpit innovations at CES 2026 in Las Vegas (Bosch Media Service US)",
+     "source_url": "https://us.bosch-press.com/pressportal/us/en/press-release-29312.html",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Edge SoC platform — Qualcomm Snapdragon Cockpit Elite multimodal NPU and in-cabin monitoring",
+     "claim": "Qualcomm's Snapdragon Cockpit Elite platform (announced October 22, 2024 at Snapdragon Summit) features a dedicated NPU designed for multimodal AI targeting a 12x performance boost over previous cockpit platforms, supports on-device AI with an integrated edge orchestrator, and is designed to support over 40 multimodal sensors including up to 20 high-resolution cameras for 360-degree coverage and in-cabin monitoring.",
+     "quote": "dedicated Neural Processing Unit (NPU), designed for multimodal AI ... targeting a 12x performance boost over previous cockpit platforms ... support over 40 multimodal sensors, including up to 20 high-resolution cameras for 360-degree coverage and in-cabin monitoring",
+     "source_title": "Qualcomm Races Ahead in the Evolution of Software-Defined Vehicles with New Snapdragon Cockpit Elite and Snapdragon Ride Elite Platforms",
+     "source_url": "https://www.qualcomm.com/news/releases/2024/10/qualcomm-races-ahead-in-the-evolution-of-software-defined-vehicl",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Supplier announcement — Visteon/Qualcomm hybrid multimodal AI cockpit with edge LLM inference",
+     "claim": "Visteon and Qualcomm announced (April 24, 2025, at Auto Shanghai) a cockpit system using Visteon's cognitoAI framework on Snapdragon Cockpit Elite with a hybrid multimodal AI architecture integrating speech, camera inputs and vehicle data using advanced LLMs; all models are quantized via Qualcomm AI Engine Direct (QNN) and run on the Hexagon NPU for edge inference, and cognitoAI 'operates securely within the vehicle itself' rather than depending on the cloud.",
+     "quote": "hybrid multimodal AI architecture that integrates speech, camera inputs, and vehicle data for proactive, context-aware interactions using advanced LLMs. All the models are quantized, optimized and converted using the Qualcomm AI Engine Direct (QNN) and runs on the Qualcomm Hexagon NPU optimized for edge inference",
+     "source_title": "Visteon and Qualcomm Redefine Next-Generation AI-based Intelligent Cockpit Experience (news release PDF)",
+     "source_url": "https://s205.q4cdn.com/875277771/files/doc_news/Visteon-and-Qualcomm-Redefine-Next-Generation-AI-based-Intelligent-Cockpit-Experience-2025.pdf",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Supplier announcement — Smart Eye generative-AI in-cabin co-driver",
+     "claim": "Smart Eye's AI Co-Driver 'Sheila' — which combines in-cabin sensing (eye movements, expressions, activities) with generative AI for context-aware interactions — was named a CES 2025 Innovation Awards Honoree, per the company's press release circulated January 6, 2025; the release does not specify on-device vs cloud execution.",
+     "quote": "seamlessly integrates advanced sensing with generative AI to deliver context-aware, emotionally intelligent interactions",
+     "source_title": "Smart Eye Showcases Next-Generation Automotive Innovations at CES 2025 (press release copy)",
+     "source_url": "https://www.theautochannel.com/news/2025/01/06/1475827-smart-eye-showcases-next-generation-automotive-innovations-ces-2025.html",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "OEM announcement — Sony Honda Mobility AFEELA: cloud LLM agent plus VLM in driving stack",
+     "claim": "Sony Honda Mobility's CES 2026 press release (January 5-6, 2026) states the AFEELA Personal Agent conversational AI runs on the cloud-based Microsoft Azure OpenAI Service, while for AFEELA Intelligent Drive the company says it is evolving toward an end-to-end AI model that integrates a Vision-Language Model (VLM).",
+     "quote": "The AFEELA Personal Agent, an interactive conversational AI, leverages Microsoft Azure OpenAI Service ... evolving it into an end-to-end AI model that integrates Vision-Language Model (VLM)",
+     "source_title": "Sony Honda Mobility World-Premieres AFEELA Prototype 2026 at CES 2026 (PR Newswire)",
+     "source_url": "https://www.prnewswire.com/news-releases/sony-honda-mobility-world-premieres-afeela-prototype-2026-at-ces-2026-302653275.html",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Academic result — CLIP-based VLM on driver distraction datasets vs CNN baselines",
+     "claim": "In 'Vision-Language Models can Identify Distracted Driver Behavior from Naturalistic Videos' (arXiv:2306.10159), fine-tuned video-based CLIP reached 98.44% accuracy on DMD and 97.86% on SAM-DD; single-frame fine-tuned CLIP scored 83.15% on StateFarm, edging CNN baselines ResNet18 (82.68) and MobileNet-v2 (80.04), while pure zero-shot CLIP was much weaker (48.12 on DMD, 58.22 on StateFarm).",
+     "quote": "Single-frameCLIP 83.15 ... ResNet18 82.68 ... MobileNet-v2 80.04 (Table III; VideoCLIP: 98.44% on DMD, 97.86% on SAM-DD; Zero-shot CLIP: 48.12 on DMD, 58.22 on StateFarm)",
+     "source_title": "Vision-Language Models can Identify Distracted Driver Behavior from Naturalistic Videos (arXiv:2306.10159, HTML v4)",
+     "source_url": "https://arxiv.org/html/2306.10159v4",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Academic result — VLM fine-tuning on driver activity description data (Drive&Act, DMD)",
+     "claim": "The paper 'Vision-language Models for Driver Monitoring Systems: A Driver Activity Description Dataset' (arXiv:2606.02273) introduces a Drive&Act description dataset with natural-language driver activity descriptions and reports that a VLM fine-tuned on it achieves an ACCR score of 76 versus 66 for the zero-shot VLM baseline (a 10-point absolute gain), with cross-dataset generalization demonstrated on the Driver Monitoring Dataset (DMD).",
+     "quote": "The VLM fine-tuned on our Drive&Act description dataset achieves an ACCR score of 76 outperforming the zero-shot VLM baseline with an ACCR score of 66.",
+     "source_title": "Vision-language Models for Driver Monitoring Systems: A Driver Activity Description Dataset (arXiv:2606.02273)",
+     "source_url": "https://arxiv.org/abs/2606.02273",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Academic architecture — hybrid trigger: VLM as rare verification branch, distilled fast student",
+     "claim": "The paper 'Risk-Aware Selective Multimodal Driver Monitoring with Driver-State World Modeling' (arXiv:2606.26922) proposes keeping a lightweight always-on student model and invoking the VLM only rarely: the fast RGB-physiological student has 11.39M parameters and 3.08 ms inference latency, while the slow VLM requires 8615.98 ms per sample — roughly a 2800x latency gap that motivates the hybrid trigger design.",
+     "quote": "We therefore treat the VLM as an optional probe or rare verification branch, not as the main deployed monitor. ... The fast student contains 11.39M parameters and runs in 3.08 ms, while the slow VLM requires 8615.98 ms per sample.",
+     "source_title": "Risk-Aware Selective Multimodal Driver Monitoring with Driver-State World Modeling (arXiv:2606.26922)",
+     "source_url": "https://arxiv.org/html/2606.26922",
+     "access_date": "2026-07-25"
+    },
+    {
+     "topic": "Academic result — selective inference safety gains for in-cabin monitoring",
+     "claim": "In the same risk-aware selective driver-monitoring work (arXiv:2606.26922), the lightweight RGB-physiological student achieves 0.7440 Macro-F1 and 0.9099 balanced accuracy, and cost-aware selective inference reduces unsafe false negatives from 17.37% under always-fast inference to approximately 5% across seeds while preserving deployment-level latency.",
+     "quote": "Cost-aware selective inference reduces unsafe false negatives from 17.37% under always-fast inference to approximately 5% across seeds while preserving deployment-level latency.",
+     "source_title": "Risk-Aware Selective Multimodal Driver Monitoring with Driver-State World Modeling (arXiv:2606.26922)",
+     "source_url": "https://arxiv.org/abs/2606.26922",
+     "access_date": "2026-07-25"
+    }
+   ],
+   "summary": "Industry landscape for VLM/LLM-based in-cabin monitoring, from public sources accessed 2026-07-25. (1) Supplier/OEM announcements: the on-device trend is explicit — LG's AI Cabin Platform (Dec 2025) runs VLMs/LLMs/image-generation models fully on-device on Qualcomm Snapdragon Cockpit Elite with no external servers, analyzing driver state from interior/exterior cameras; Visteon+Qualcomm (Apr 2025) run quantized LLMs on the Hexagon NPU via QNN in a hybrid multimodal architecture that stays in-vehicle; Bosch (Dec 2025) sells an add-on cockpit box on NVIDIA DRIVE AGX Orin with 150-200 TOPS for in-cabin VLMs plus NVIDIA Nemotron reasoning. Qualcomm's Cockpit Elite SoC itself targets a 12x NPU boost with up to 20 cameras for in-cabin monitoring. Contrast: Sony Honda's AFEELA Personal Agent is cloud-based (Azure OpenAI Service), with a VLM planned in the end-to-end driving model, and Smart Eye's generative-AI co-driver 'Sheila' (CES 2025 honoree) fuses DMS sensing with generative AI without disclosing execution location. (2) Academic results: fine-tuned CLIP variants match or beat CNN baselines on distraction datasets (VideoCLIP 98.44% on DMD; single-frame CLIP 83.15% on StateFarm vs ResNet18 82.68/MobileNet-v2 80.04), but zero-shot VLM accuracy is far below deployable levels (48-58%); fine-tuning on driver-activity description data lifts ACCR from 66 to 76 on Drive&Act. (3) Distillation/hybrid triggers: arXiv 2606.26922 quantifies why raw VLMs cannot be always-on monitors (8615.98 ms per sample vs 3.08 ms for an 11.39M-parameter student) and shows a cost-aware selective/trigger architecture cutting unsafe false negatives from 17.37% to ~5%. Net takeaway for the feasibility study: industry consensus is small quantized multimodal models on cockpit NPUs (or added Orin compute) for latency-critical functions, cloud LLMs only for conversational layers, and academia converging on distilled students with VLM-as-verifier trigger designs rather than continuous VLM inference."
+  }
+ ],
+ "verdicts": [
+  {
+   "verdicts": [
+    {
+     "claim": "Qualcomm SA8155P product brief: ML subsystem delivers >10 TOPS at <7 W; 4x16 LPDDR4X interface up to 68 GBps",
+     "verdict": "confirmed",
+     "correction": "Verified in the PDF itself: 'highly efficient machine learning architecture consuming less than 7 W to deliver > 10 TOPS of performance' and '4x16 LPDDR4X support—Up to 68 GBps'. Minor nuance: the brief says the 68 GBps is 'with compression (Gen 3 of UBWC)'.",
+     "checked_url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/qul7413_sa8155_productbrief_r4.pdf"
+    },
+    {
+     "claim": "Thundercomm SA8155P ADP ships with 8 GB LPDDR4X (2x4GB, 2x32 with ECC) and 128 GB UFS",
+     "verdict": "confirmed",
+     "correction": "Page lists 'LPDDR4X:2x4GByte' (8 GB total), '2 × 32 LPDDR4X with ECC', and 'UFS: 128 GBytes' (UFS 3.0 gear4 2-lane).",
+     "checked_url": "https://www.thundercomm.com/product/sa8155p-automotive-development-platform/"
+    },
+    {
+     "claim": "Li Auto L9 infotainment uses two SA8155P chips with 24 GB RAM and 256 GB storage",
+     "verdict": "confirmed",
+     "correction": "Exact quote found in the ArenaEV article: 'two Qualcomm SA8155P chips... paired with 24GB of RAM and 256GB of high-speed internal storage.' Note this is a news source, not a Li Auto spec sheet.",
+     "checked_url": "https://m.arenaev.com/li_li_l9_interior_teased_to_debut_during_this_years_beijing_auto_show-news-76.php"
+    },
+    {
+     "claim": "Snapdragon 8295 (SA8295P, 4th-gen Cockpit, 5 nm) NPU rated 30 TOPS, 8x the 8155",
+     "verdict": "confirmed",
+     "correction": "CnEVPost states: 'The 8295 chip's NPU for AI learning has 30 Tops of computing power, twice that of Apple's A15 and eight times that of the 8155 chip', 5nm process, 4th-generation Snapdragon Automotive Digital Cockpit Platform.",
+     "checked_url": "https://cnevpost.com/2021/11/29/jidus-first-model-to-feature-qualcomm-snapdragon-8295-chip-based-on-5nm-process/"
+    },
+    {
+     "claim": "Lantronix SA8295P ADP (QAM8295P, two 556-ball LPDDR4X packages): 16 GB eight-channel 2133 MHz LPDDR4X (8x16-bit) plus two UFS 3.1 devices",
+     "verdict": "confirmed",
+     "correction": "Verified in the PDF: 'Eight-channel high-speed memory – 2133 MHz LPDDR4X SDRAM with optional low-power features (8 x 16-bit); 16 GB', 'Two UFS 3.1 gear 4 – 2 lanes', and 'two 556-ball LPDDR4X SDRAM' in the QAM8295P module.",
+     "checked_url": "https://cdn.lantronix.com/wp-content/uploads/pdf/MPB-00130-RevB-SA8295P-A4.pdf"
+    },
+    {
+     "claim": "TI TDA4VM: up to 8 TOPS (8b) MMA at 1.0 GHz; LPDDR4 up to 4266 MT/s, 32-bit bus with inline ECC",
+     "verdict": "confirmed",
+     "checked_url": "https://www.ti.com/product/TDA4VM"
+    },
+    {
+     "claim": "TI SK-TDA4VM starter kit includes 4 GB LPDDR4-4266 with inline ECC, alongside 8 TOPS DL accelerator",
+     "verdict": "confirmed",
+     "correction": "Page states 'DRAM, LPDDR4-4266, 4 gigabytes total memory, support for inline ECC' and '8 TOPS deep learning performance'.",
+     "checked_url": "https://www.ti.com/tool/SK-TDA4VM"
+    },
+    {
+     "claim": "TI TDA4VH-Q1: eight Cortex-A72 cores, 32 TOPS AI, four LPDDR4 memory interfaces",
+     "verdict": "confirmed",
+     "correction": "Page confirms 'Octal Arm Cortex-A72, 32 TOPS of AI' and 'Up to Four External Memory Interface (EMIF) module with ECC' supporting LPDDR4 up to 4266 MT/s. Note TI phrases it as 'up to four' EMIFs.",
+     "checked_url": "https://www.ti.com/product/TDA4VH-Q1"
+    },
+    {
+     "claim": "NVIDIA: DRIVE AGX Orin up to 254 TOPS; DRIVE AGX Thor >1,000 INT8 TOPS (2,000 FP4 TFLOPS)",
+     "verdict": "confirmed",
+     "correction": "Page states 'Delivers up to 254 TOPS of AI performance' (Orin) and 'Delivers more than 1,000 INT8 TOPS (2,000 FP4 TFLOPs)' (Thor).",
+     "checked_url": "https://www.nvidia.com/en-us/self-driving-cars/in-vehicle-computing/"
+    },
+    {
+     "claim": "Jetson AGX Orin modules ship in 32 GB and 64 GB 256-bit LPDDR5 at 204.8 GB/s, rated 248 TOPS and 275 TOPS respectively",
+     "verdict": "wrong",
+     "correction": "The memory configurations and 275 TOPS/64GB are correct, but 248 TOPS is NOT the 32GB module's rating. Per NVIDIA's own page (raw HTML checked): Jetson AGX Orin 64GB = 275 TOPS (64GB 256-bit LPDDR5, 204.8GB/s); Jetson AGX Orin Industrial = 248 TOPS (64GB 256-bit LPDDR5 with ECC, 204.8GB/s); Jetson AGX Orin 32GB = 200 SPARSE INT8 TOPS in the compute-comparison table (the series overview table on the same page shows 241 TOPS for it, but never 248). So the correct pairing is 64GB=275 TOPS, Industrial(64GB+ECC)=248 TOPS, 32GB=200 (or 241) TOPS.",
+     "checked_url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"
+    },
+    {
+     "claim": "DRIVE AGX Thor Developer Kit: 64 GB LPDDR5X @ 4266 MHz, 273 GB/s, 256 GB UFS, up to 1,000 INT8 / 2,000 FP4",
+     "verdict": "confirmed",
+     "correction": "Article's spec table confirms '64 GB LPDDR5X @ 4266 MHz', '273 GB/s', '256 GB UFS', and 'Up to 1,000 INT8 TFLOPS; 2,000 FP4 TFLOPS' (source writes 'INT8 TFLOPS' where the claim says TOPS; numbers match).",
+     "checked_url": "https://www.edge-ai-vision.com/2025/09/accelerate-autonomous-vehicle-development-with-the-nvidia-drive-agx-thor-developer-kit/"
+    },
+    {
+     "claim": "Cipia Driver Sense on Ambarella CV28: basic Euro-compliant DMS uses 50% of Arm cores / 10% of CVflow; advanced DMS uses 60% / 35%",
+     "verdict": "confirmed",
+     "correction": "Press release confirms both percentage pairs, and the advanced setup includes driver ID plus phone use, smoking, and seatbelt detection.",
+     "checked_url": "https://www.prnewswire.com/il/news-releases/cipias-driver-sense-dms-now-available-on-ambarellas-cv28-automotive-soc-301533978.html"
+    },
+    {
+     "claim": "TIDL SDK 9.1 (tag 09_01_00_05, 2024-01-04): ViT/DeiT via matmul+layernorm+softmax, partial SwinT; softmax 8-bit only ~30x gap; attention MatMul max 3-D ~5x gap; closure targeted SDK 9.2",
+     "verdict": "confirmed",
+     "correction": "Doc at tag 09_01_00_05 confirms all items; GitHub API confirms tag 09_01_00_05 published 2024-01-04T16:23:42Z.",
+     "checked_url": "https://github.com/TexasInstruments/edgeai-tidl-tools/blob/09_01_00_05/docs/tidl_fsg_vtfr.md"
+    },
+    {
+     "claim": "Current edgeai-tidl-tools master (latest release 11_02_17_00, 2026-07-06): Attention-MatMul/Softmax limitations 'None' (softmax width+height axes), DEIT/SWIN/DETR/Segformer validated, ONNX-only with ORT_DISABLE_ALL",
+     "verdict": "confirmed",
+     "correction": "Master doc confirms: Attention-MatMul limitations 'None', Attention-Softmax axis support along width & height, models DEIT/SWIN/DETR/Segformer, ONNX models only, ORT_DISABLE_ALL required. GitHub API confirms latest release 11_02_17_00 published 2026-07-06T12:22:21Z.",
+     "checked_url": "https://github.com/TexasInstruments/edgeai-tidl-tools/blob/master/docs/vision_transformers.md"
+    },
+    {
+     "claim": "Qualcomm AI Hub Automotive covers SA7255P/SA8255P/SA8295P/SA8650P/SA8775P and catalogs Llama-v3.2-1B/3B/3B-SSD, BERT, BEiT",
+     "verdict": "confirmed",
+     "correction": "All five chipsets and all named models (Llama-v3.2-1B-Instruct, Llama-v3.2-3B-Instruct, Llama-v3.2-3B-Instruct-SSD, BERT-Base-Uncased-Hf, BEiT) found in the automotive catalog.",
+     "checked_url": "https://aihub.qualcomm.com/automotive/models"
+    },
+    {
+     "claim": "AI Hub Llama-v3.2-1B-Instruct: SA8295P and SA8775P listed as supported chipsets, SA8650P ADP among platforms, w4/w8 quantization, no automotive tokens/sec shown; 3B page carries 'not supported on any Automotive chipset' caveat",
+     "verdict": "confirmed",
+     "correction": "All elements verified, including the 3B page's contradictory 'This model is currently not supported on any Automotive chipset' note alongside its SA8295P/SA8775P listing. One addition: the 1B page appears to display the same 'not supported' banner alongside its chipset listing, so the claim's own re-verify caveat applies to the 1B page too.",
+     "checked_url": "https://aihub.qualcomm.com/automotive/models/llama_v3_2_1b_instruct"
+    },
+    {
+     "claim": "Snapdragon Ride whitepaper: Ride Elite can host large VLMs with E2E transformer networks (>40 multimodal sensors); custom NPU independent from GPU excels at large CNNs and multi-layer transformers; GenAI with large vision models predicts driver behavior",
+     "verdict": "confirmed",
+     "correction": "Read the full PDF (August 2025 edition). Exact sentences found: 'The flagship Snapdragon Ride Elite platform can support more than 40 multimodal sensors... and host large vision language models (VLMs) together with end-to-end (E2E) transformer networks, depending on the use cases. Independent from the GPU, the energy-efficient custom-built NPU... excelling at handling large convolutional neural networks (CNNs) and multi-layer transformer networks.' Also: 'Generative AI with large vision models (LVMs) can predict driver behavior from past patterns'. VLM hosting is indeed attributed to the Ride Elite tier, not SA8295P/SA8650 specifically.",
+     "checked_url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-Ride-GLOBAL-whitepaper.pdf"
+    },
+    {
+     "claim": "Cerence CaLLM Edge announced 2024-11-13: 3.8B parameters, 4k context, 4-bit quantization, fine-tuned on Microsoft Phi-3, embedded in head unit without connectivity",
+     "verdict": "confirmed",
+     "correction": "GlobeNewswire release dated November 13, 2024 confirms '3.8 billion parameters, 4k context size, and 4-bit quantization... fits comfortably when embedded in the automotive headunit', fine-tuned on Microsoft's Phi-3 family, embedded-only operation without connectivity.",
+     "checked_url": "https://www.globenewswire.com/news-release/2024/11/13/2980461/0/en/Cerence-Introduces-Pioneering-Embedded-Small-Language-Model-Purpose-Built-for-Automotive.html"
+    },
+    {
+     "claim": "Ambarella N1 (announced 2024-01-08, CES): runs 1-34B-parameter multi-modal LLMs, Llama2-13B at up to 25 tokens/s single-streaming under 50 W, LLaVA for up to 32 cameras, based on CV3-HD",
+     "verdict": "confirmed",
+     "correction": "Press release dated Jan. 8, 2024 confirms all figures: 'one to 34 Billion-Parameter, Multi-Modal LLMs', 'runs Llama2-13B with up to 25 output tokens per second in single-streaming mode at under 50W', LLaVA for 'up to 32 camera sources', 'Based on Ambarella's powerful CV3-HD architecture, initially developed for autonomous driving applications'.",
+     "checked_url": "https://www.ambarella.com/news/ambarella-brings-generative-ai-capabilities-to-edge-devices-introduces-n1-system-on-chip-series-for-on-premise-applications/"
+    },
+    {
+     "claim": "Ambarella CES 2025 blog: LLM demo on CV3-AD describing automotive scenes; live GenAI VLM scene analysis in demo vehicles; N1-655 introduced for multi-channel VLM under 20 W",
+     "verdict": "confirmed",
+     "correction": "Blog confirms 'an LLM running on CV3-AD that described automotive scenes', 'live GenAI VLM scene analysis' in a demo vehicle, and N1-655 'targeting on-premise, multi-channel VLM and NN processing in under 20 watts'.",
+     "checked_url": "https://www.ambarella.com/blog/advancing-genai-at-the-edge-during-ces-2025/"
+    },
+    {
+     "claim": "Ambarella N1-655 (announced 2025-01-07) runs Phi, Gemma, LLaVA-OneVision and Llama model families at only 20 watts",
+     "verdict": "confirmed",
+     "correction": "Press release dated Jan 7, 2025 confirms 'the Phi, Gemma, LLaVA-OneVision and Llama models' and 'only 20 watts of power'.",
+     "checked_url": "https://www.ambarella.com/news/ambarella-expands-n1-edge-genai-family-with-soc-targeted-at-on-premise-multi-channel-vlm-and-nn-processing-in-under-20-watts/"
+    },
+    {
+     "claim": "NXP eIQ GenAI Flow announced 2024-11-01 ('building blocks for LLMs' + RAG, incl. i.MX 95); GitHub demonstrator: i.MX 95 High Performance tier full pipeline with danube-500M int8/int4; NPU acceleration on i.MX 95 B0 via Neutron NPU (>3 GB CMA, --use-neutron); no equivalent S32 enablement found",
+     "verdict": "confirmed",
+     "correction": "Edge AI and Vision Alliance article dated November 1, 2024 contains 'The GenAI Flow provides the building blocks for Large Language Models (LLMs)...' plus RAG and i.MX 95 mentions. GitHub README confirms i.MX95 High Performance tier (Full Flow: VIT+STT+RAG+LLM+TTS), danube-500M-q8/q4, 'NPU acceleration can be used for LLM inference on i.MX 95 B0', '>3GB' extended CMA, and the --use-neutron flag. The 'no S32 enablement found' part is the author's own search-scope statement (negative claim, not contradicted by anything found here).",
+     "checked_url": "https://github.com/nxp-appcodehub/dm-eiq-genai-flow-demonstrator/blob/main/eiq_genai_flow/README.md"
+    },
+    {
+     "claim": "Renesas R-Car V4H page: up to 34 TOPS at 16 TOPS/W from dedicated DL/CV IPs; no transformer or generative AI mention",
+     "verdict": "confirmed",
+     "correction": "Page confirms 'up to 34 TOPS of highly efficient deep learning performance' and '16 TOPS/Watt'; neither 'transformer' nor 'generative AI' appears on the page.",
+     "checked_url": "https://www.renesas.com/en/products/r-car-v4h"
+    },
+    {
+     "claim": "R-Car X5H announced 2024-11-13 (3nm, up to 400 TOPS, sampling select customers 1H/2025); Gen 5 announcement 2025-12-16 claims GenAI/LLMs for AI cockpits and states Gen 5 silicon sampling has begun",
+     "verdict": "confirmed",
+     "correction": "Gen 5 newsroom page (December 16, 2025) contains the exact LLM sentence and 'Renesas has begun sampling Gen 5 silicon'. X5H details cross-checked: Renesas/Businesswire announcement dated November 13, 2024 confirms 3nm process, up to 400 TOPS AI, sampling to select customers in first half of 2025.",
+     "checked_url": "https://www.renesas.com/en/about/newsroom/renesas-fast-tracks-sdv-innovation-r-car-gen-5-soc-based-end-end-multi-domain-solution-platform"
+    },
+    {
+     "claim": "Euro NCAP v1.1 Oct 2025 (implementation Jan 2026): Long Distraction = single gaze away 3-4 s, preceded by 4 s on-road gaze; assessed separately for Owl and Lizard movement types",
+     "verdict": "confirmed",
+     "correction": "Section 1.2.1 of the PDF matches verbatim; cover confirms Version 1.1, October 2025, Implementation January 2026. PASS/FAIL is assessed per Movement Type (Owl, Lizard — and Body Lean also appears as a movement type for some gaze locations).",
+     "checked_url": "https://cdn.euroncap.com/cars/assets/euro_ncap_protocol_safe_driving_driver_engagement_v11_a30e874152.pdf"
+    },
+    {
+     "claim": "Euro NCAP Short Distraction (VATS) = cumulative 10 s of off-road glances within a 30 s period; alternative detection strategies eligible for points",
+     "verdict": "confirmed",
+     "correction": "Section 1.2.2 matches verbatim: 'a driver who glances away from the forward road view for a cumulative 10 seconds within a 30 second time period. Alternative detection strategies are also eligible for points.'",
+     "checked_url": "https://cdn.euroncap.com/cars/assets/euro_ncap_protocol_safe_driving_driver_engagement_v11_a30e874152.pdf"
+    },
+    {
+     "claim": "Euro NCAP: microsleep = 1-2 s eye closure; sleep = continued eye closure >=3 s; each worth 2 points within the 25-point Driver Monitoring assessment",
+     "verdict": "confirmed",
+     "correction": "Sections 1.3.3/1.3.4 match ('short duration eye closure (1-2 seconds)'; 'continued eye closure ≥3 seconds'); scoring tables confirm Microsleep 2 points, Sleep 2 points, Driver Monitoring total 25 points.",
+     "checked_url": "https://cdn.euroncap.com/cars/assets/euro_ncap_protocol_safe_driving_driver_engagement_v11_a30e874152.pdf"
+    },
+    {
+     "claim": "Euro NCAP: unresponsive = gaze not returning within 3 s after distraction warning or eyes closed >=6 s; Emergency Function must start no later than 5 s after distinct warning phase begins",
+     "verdict": "confirmed",
+     "correction": "Section 1.3.5 matches verbatim; Section 1.4.3.3 states 'The EF intervention shall start soon enough so that the vehicle is engaged into Assisted Mode, and no later than 5 seconds after the distinct warning phase has started.'",
+     "checked_url": "https://cdn.euroncap.com/cars/assets/euro_ncap_protocol_safe_driving_driver_engagement_v11_a30e874152.pdf"
+    },
+    {
+     "claim": "Euro NCAP drowsiness: detect KSS level >7 at the latest (or equivalent metric), functional from 50 km/h",
+     "verdict": "confirmed",
+     "correction": "Section 1.3.2 matches verbatim.",
+     "checked_url": "https://cdn.euroncap.com/cars/assets/euro_ncap_protocol_safe_driving_driver_engagement_v11_a30e874152.pdf"
+    },
+    {
+     "claim": "Euro NCAP latency: visual + haptic/audible warning immediately after distraction classification at >=20 km/h; FCW/AEB triggering time differs >=200 ms between distracted and attentive drivers; Forward Support Sensitivity activated <=1 s of any continuous gaze away",
+     "verdict": "confirmed",
+     "correction": "Section 1.4.1: 'When the vehicle is travelling at ≥ 20km/h, a visual and (haptic and/or audible) warning shall be issued immediately after the driver is classified as distracted.' Section 1.4.3.1: 'FCW and/or AEB systems shall be coupled to the driver state so that the triggering time differs at least 200ms...' and 'the intervention strategy shall be activated ≤ 1 second of any continuous gaze away from forward road view'.",
+     "checked_url": "https://cdn.euroncap.com/cars/assets/euro_ncap_protocol_safe_driving_driver_engagement_v11_a30e874152.pdf"
+    }
+   ]
+  },
+  {
+   "verdicts": [
+    {
+     "claim": "Euro NCAP DSM robustness envelope: lighting 100,000 lux daytime to 1 lux night, drivers 16-80, Fitzpatrick 1-6, eyelid aperture 6.0-12.0 mm, clear sunglasses >70% transmittance at camera wavelength; DSM must start measuring within 1 minute of driving at >=10 km/h",
+     "verdict": "confirmed",
+     "checked_url": "https://cdn.euroncap.com/cars/assets/euro_ncap_protocol_safe_driving_driver_engagement_v11_a30e874152.pdf",
+     "correction": "All values verbatim in the PDF: 'Daytime (100,000 lux) – night-time (1 lux)', 'Youthful [16-18] – aged [80]', 'Fitzpatrick Skin Type 1 – 6', 'From 6.0mm up to 12.0mm', 'Clear sunglasses with >70% transmittance' (referred to camera-wavelength light), and 'a total of 1 minute of driving at forward speed of at least 10 km/h is allowed' for the system to start measuring."
+    },
+    {
+     "claim": "EU 2021/1341 DDAW: warn at KSS >=8, auto-activated above 70 km/h, operates normally 65-130 km/h or max allowed speed whichever is lower",
+     "verdict": "confirmed",
+     "checked_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R1341",
+     "correction": "Verbatim: 'equivalent to or above 8 on the reference sleepiness scale' (3.3.1), 'automatically activated above the speed of 70 km/h' (3.1.4), 'operate normally within the speed range of 65 km/h to 130 km/h or the vehicle's maximum allowed speed, whichever is lower' (3.1.5)."
+    },
+    {
+     "claim": "EU 2021/1341 DDAW validation: pass if average sensitivity >40% or lower bound of 90% CI >20%; alternative direct measures such as EEG or PERCLOS permitted",
+     "verdict": "confirmed",
+     "checked_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R1341",
+     "correction": "Part 2, 8.1: '(a) the average sensitivity is above 40 %' or '(b) the lower bound from the 90 % confidence interval of the sensitivity results shall be above 20 %'; Part 2, 5.2.1(a) names 'Electroencephalogram (EEG) or PERCLOS (percentage of eyelid closure)' as direct-monitoring alternatives."
+    },
+    {
+     "claim": "EU 2023/2590 ADDW: warn at max 3.5 s gaze in Area 3 at >=50 km/h and 6 s at >=20 km/h; non-nominal situations may extend limits by additional 1.5 s",
+     "verdict": "confirmed",
+     "checked_url": "https://eur-lex.europa.eu/legal-content/en/TXT/PDF/?uri=OJ%3AL_202302590",
+     "correction": "Verbatim in Annex I Part 1, 3.3.2.1-3.3.2.2: '3,5 seconds in the nominal situation' at 50 km/h or above, '6 seconds in the nominal situation' at 20 km/h or above, each extendable by 'additional 1,5 seconds' in non-nominal situations."
+    },
+    {
+     "claim": "ADDW: minimum 50 ms gaze-event time tolerance (eye saccades); false negative if no warning within 4 s (incl. 0.5 s uncertainty buffer) for the 50 km/h condition or within 6.5 s for the 20 km/h condition",
+     "verdict": "confirmed",
+     "checked_url": "https://eur-lex.europa.eu/legal-content/en/TXT/PDF/?uri=OJ%3AL_202302590",
+     "correction": "Verbatim: 'a minimum time tolerance of 50 milliseconds (eye saccades)' (3.3.2.4); test results 3.1/3.2: 'no distraction warning is emitted within 4 seconds (which includes a 0,5 second uncertainty buffer)' for the 3.3.2.1 condition and 'within 6,5 seconds (which includes a 0,5 second uncertainty buffer)' for the 3.3.2.2 condition."
+    },
+    {
+     "claim": "ADDW timeline: applies from 7 July 2024 per recital 6 of (EU) 2023/2590 (new vehicle types), mandatory for all newly registered vehicles from July 2026",
+     "verdict": "confirmed",
+     "checked_url": "https://seeingmachines.com/understanding-advanced-driver-distraction-warning-addw-systems/",
+     "correction": "Recital 6 verbatim in the EUR-Lex PDF ('is to apply from 7 July 2024... this Regulation should apply from the same date'; Article: 'It shall apply from 7 July 2024'). Seeing Machines confirms both fleet statements: required in all new EU vehicle types since July 2024 and 'mandatory for all newly registered vehicles from July 2026'."
+    },
+    {
+     "claim": "PERCLOS: percentage of eyelid closure over pupil over time (slow droops not blinks); Wierwille 1994 metric = proportion of a minute eyes at least 80% closed; variants P70/P80/EYEMEAS; most reliable and valid measure in FHWA/NHTSA 42-hour study",
+     "verdict": "confirmed",
+     "checked_url": "https://ntlrepository.blob.core.windows.net/lib/51000/51300/51369/tb98-006.pdf",
+     "correction": "All verbatim in the tech brief: 'PERCLOS is the percentage of eyelid closure over the pupil over time and reflects slow eyelid closures (\"droops\") rather than blinks'; 'proportion of time in a minute that the eyes are at least 80 percent closed (Wierwille et al., 1994)'; P70/P80/EYEMEAS defined; 'was found to be the most reliable and valid determination of a driver's alertness level'; 42-hour test period referenced throughout."
+    },
+    {
+     "claim": "OMNIVISION OV2311: 2 MP automotive global-shutter DMS sensor, AEC-Q100 Grade 2, ASIL safety features, up to 60 fps at 1600x1300, high NIR quantum efficiency to minimize active illumination power",
+     "verdict": "confirmed",
+     "checked_url": "https://www.ovt.com/products/ov2311/",
+     "correction": "Page confirms 2-Megapixel (1600 x 1300) global shutter sensor for driver monitoring, 'up to 60 frames per second (fps)', AEC-Q100 Grade 2, ASIL safety features (min. ASIL B), and 'high near-infrared quantum efficiency to minimize active illumination power'."
+    },
+    {
+     "claim": "ams OSRAM: most in-cabin sensing systems today operate at 940 nm; 940 nm OSLON Black IR:6 C emitters offer reduced red glow; robustness against sunlight for driver monitoring",
+     "verdict": "confirmed",
+     "checked_url": "https://ams-osram.com/applications/automotive-mobility/in-cabin-sensing",
+     "correction": "Core statement verbatim: 'Most in-cabin sensing systems today operate at 940 nm wavelength.' OSLON Black IR:6 C described as 940 nm IR LEDs with 'reduced red glow at chip level'. Minor nuance: the page attributes 'robustness against sunlight and sunglass reflections' to VCSELs' narrow spectral bandwidth, not specifically to the OSLON LED series."
+    },
+    {
+     "claim": "NVIDIA Jetson benchmark: Qwen2 VL 2B at 2.8 tok/s (Orin Nano) and 4.4 tok/s (Orin Nano Super), 1.57x, run in FP4 with Hugging Face Transformers",
+     "verdict": "confirmed",
+     "checked_url": "https://developer.nvidia.com/blog/nvidia-jetson-orin-nano-developer-kit-gets-a-super-boost/",
+     "correction": "Table row matches exactly (2.8 / 4.4 / 1.57x); note verbatim: 'All VILA and LLAVA models were run with INT4 precision using MLC while the rest of the models were run in FP4 precision with Hugging Face Transformers.'"
+    },
+    {
+     "claim": "NVIDIA Jetson benchmark: SmolVLM 2B 8.1 -> 12.9 tok/s (1.59x); Orin Nano Super figures VILA 1.5 3B 1.06, InternVL2.5 4B 5.1, PaliGemma2 3B 21.6 tok/s",
+     "verdict": "confirmed",
+     "checked_url": "https://developer.nvidia.com/blog/nvidia-jetson-orin-nano-developer-kit-gets-a-super-boost/",
+     "correction": "All rows match the blog's VLM table: SmolVLM 2B 8.1/12.9/1.59x, VILA 1.5 3B 0.7/1.06, InternVL2.5 4B 2.5/5.1, PaliGemma2 3B 13.7/21.6."
+    },
+    {
+     "claim": "7B VLMs on 8GB Orin Nano: LLaVA 1.6 7B (INT4 MLC) 0.412 -> 0.57 tok/s; VILA 1.5 8B 0.574 -> 0.83 tok/s",
+     "verdict": "confirmed",
+     "checked_url": "https://developer.nvidia.com/blog/nvidia-jetson-orin-nano-developer-kit-gets-a-super-boost/",
+     "correction": "Rows match exactly: LLAVA 1.6 7B 0.412/0.57 (1.38x), VILA 1.5 8B 0.574/0.83 (1.45x); LLAVA/VILA models run with INT4 via MLC per the blog's note."
+    },
+    {
+     "claim": "SmolVLM memory: 5.02 GB min GPU RAM vs 13.70 GB (Qwen2-VL 2B) and 10.52 GB (InternVL2 2B); best memory usage in class; 81 tokens per 384x384 patch; 1.2k vs 16k tokens for test prompt + image",
+     "verdict": "confirmed",
+     "checked_url": "https://huggingface.co/blog/smolvlm",
+     "correction": "Blog confirms 5.02 / 13.70 / 10.52 GB, 'the best memory usage among the existing suite of vision language models in transformers', 81 tokens per 384x384 patch, and 'SmolVLM encodes our test prompt and a single image in 1.2k tokens, whereas Qwen2-VL uses 16k tokens'."
+    },
+    {
+     "claim": "SmolVLM throughput: 3.3-4.5x faster prefill and 7.5-16x faster generation than Qwen2-VL 2B",
+     "verdict": "confirmed",
+     "checked_url": "https://huggingface.co/blog/smolvlm",
+     "correction": "Verbatim: 'the prefill throughput is 3.3 to 4.5 times faster, and the generation throughput is 7.5 to 16 times faster.'"
+    },
+    {
+     "claim": "Qwen2-VL-7B-Instruct-AWQ benchmarks (A100 80GB, batch 1, 2048 generated tokens): input length 1 memory 16.07 GB BF16, 10.11 GB GPTQ-Int8, 7.20 GB GPTQ-Int4, 7.07 GB AWQ; at 6144 input tokens AWQ 12.56 GB; generation ~31-43 tok/s across quantizations",
+     "verdict": "confirmed",
+     "checked_url": "https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct-AWQ",
+     "correction": "Model card table matches: 16.07/10.11/7.20/7.07 GB at input 1; AWQ 12.56 GB at input 6144. Speeds span 31.31-42.76 tok/s across quantizations and both input lengths, consistent with 'roughly 31-43'."
+    },
+    {
+     "claim": "MobileVLM (1.4B/2.7B LMs): 21.5 tok/s on Snapdragon 888 CPU and 65.3 tok/s on Jetson Orin GPU",
+     "verdict": "confirmed",
+     "checked_url": "https://arxiv.org/abs/2312.16886",
+     "correction": "Abstract confirms language models 'at the scale of 1.4B and 2.7B parameters' and speeds of '21.5 tokens and 65.3 tokens per second' on Snapdragon 888 CPU and Jetson Orin GPU respectively."
+    },
+    {
+     "claim": "Qualcomm MWC 2024: LLaVA 7+ billion parameter LMM running on-device on a Snapdragon Android smartphone at a responsive token rate (no exact tokens/sec), multi-turn conversation with text and image inputs",
+     "verdict": "confirmed",
+     "checked_url": "https://www.edge-ai-vision.com/2024/02/qualcomm-continues-to-bring-the-generative-ai-revolution-to-devices-and-empowers-developers-with-qualcomm-ai-hub/",
+     "correction": "Release confirms: 'For the first time running on an Android smartphone... LLaVA, a 7+ billion parameter large multimodal model', 'responsive token rate on device' with no numeric tokens/sec, and 'generate multi-turn conversations with an AI assistant about an image'."
+    },
+    {
+     "claim": "LiteVLM on NVIDIA DRIVE Thor: 2.5x end-to-end latency reduction without accuracy loss, 3.2x with FP8 PTQ, via patch selection, token selection and speculative decoding",
+     "verdict": "confirmed",
+     "checked_url": "https://arxiv.org/abs/2506.07416",
+     "correction": "Abstract confirms evaluation on 'NVIDIA DRIVE Thor platform for autonomous driving application', '2.5x end-to-end latency reduction without compromising task accuracy', '3.2x when applying FP8 post-training quantization', and the three techniques."
+    },
+    {
+     "claim": "arXiv 2606.26922: large VLMs unsuitable as always-on in-cabin monitors (latency/reliability); distilled RGB-physiological student with 11.39M parameters and 3.08 ms latency; selective inference invokes larger models only when needed",
+     "verdict": "confirmed",
+     "checked_url": "https://arxiv.org/abs/2606.26922",
+     "correction": "Abstract verbatim: 'their latency and limited reliability in this setting make them unsuitable as always-on in-cabin monitors'; student confirmed at 11.39M parameters / 3.08 ms; selective gating and VLM as rare verification branch confirmed."
+    },
+    {
+     "claim": "arXiv 2512.22298: 17-class in-cabin behavior recognition, ~16 FPS INT8 on CPU-only Raspberry Pi 5 (per-frame latency <60 ms), ~25 FPS on Google Coral Edge TPU (~40 ms end-to-end), compact vision model not a VLM",
+     "verdict": "confirmed",
+     "checked_url": "https://arxiv.org/abs/2512.22298",
+     "correction": "Abstract confirms 17 behavior classes, approximately 16 FPS on Raspberry Pi 5 with INT8 (per-frame latency <60 ms), approximately 25 FPS / ~40 ms end-to-end on Coral Edge TPU, using a compact per-frame vision model."
+    },
+    {
+     "claim": "arXiv 2606.02273: general-purpose VLMs struggle with fine distinctions in driver behaviors; fine-tuned VLM ACCR 76 vs 66 zero-shot; cross-dataset generalization on DMD",
+     "verdict": "confirmed",
+     "checked_url": "https://arxiv.org/abs/2606.02273",
+     "correction": "Abstract confirms: VLMs 'trained on general datasets and struggle to recognize fine distinctions in driver behaviors'; ACCR 76 vs 66; cross-dataset evaluation on the Driver Monitoring Dataset (DMD) shows generalization."
+    },
+    {
+     "claim": "LG press release (Dec 11, 2025, CES 2026): AI Cabin Platform applying VLMs/LLMs/image generation to IVI, on Snapdragon Cockpit Elite, all AI on-device without external servers, driver condition analyzed via internal and external cameras",
+     "verdict": "confirmed",
+     "checked_url": "https://www.lg.com/global/mobility/media-center/press-release/20251211-solution-lg-qualcomm-aidv-ces2026",
+     "correction": "Release dated December 11, 2025 confirms all elements, including verbatim 'all AI calculations are processed on-device and within the vehicle, eliminating the need to communicate with external servers' and analysis of 'the driver's condition using data from internal and external vehicle cameras'."
+    },
+    {
+     "claim": "Bosch press release (Dec 18, 2025, CES 2026): AI extension platform on NVIDIA DRIVE AGX Orin SoC, 150-200 TOPS additional compute, connects via power and Ethernet, enables in-cabin VLM applications, reasoning/speech via NVIDIA Nemotron",
+     "verdict": "confirmed",
+     "checked_url": "https://us.bosch-press.com/pressportal/us/en/press-release-29312.html",
+     "correction": "Release dated December 18, 2025 confirms all elements verbatim, including '150 to 200 tera operations per second (TOPS) of additional compute power', power/Ethernet interfaces, VLM in-cabin applications, and NVIDIA Nemotron-powered reasoning and speech."
+    },
+    {
+     "claim": "Qualcomm Snapdragon Cockpit Elite (Oct 22, 2024): dedicated multimodal-AI NPU targeting 12x boost over previous cockpit platforms, on-device AI with integrated edge orchestrator, 40+ multimodal sensors incl. up to 20 high-res cameras for 360-degree coverage and in-cabin monitoring",
+     "verdict": "confirmed",
+     "checked_url": "https://www.qualcomm.com/news/releases/2024/10/qualcomm-races-ahead-in-the-evolution-of-software-defined-vehicl",
+     "correction": "Release dated October 22, 2024 (Snapdragon Summit) confirms all elements verbatim: '12x performance boost over previous cockpit platforms', 'on-device AI with a fully integrated edge orchestrator', 'over 40 multimodal sensors, including up to 20 high-resolution cameras for 360-degree coverage and in-cabin monitoring'."
+    },
+    {
+     "claim": "Visteon/Qualcomm (April 24, 2025, Auto Shanghai): cognitoAI on Snapdragon Cockpit Elite, hybrid multimodal AI with speech/camera/vehicle data and advanced LLMs, models quantized via QNN and run on Hexagon NPU for edge inference, cognitoAI operates securely within the vehicle rather than cloud",
+     "verdict": "confirmed",
+     "checked_url": "https://s205.q4cdn.com/875277771/files/doc_news/Visteon-and-Qualcomm-Redefine-Next-Generation-AI-based-Intelligent-Cockpit-Experience-2025.pdf",
+     "correction": "PDF text (extracted locally) is datelined 'SHANGHAI, April 24, 2025' and contains the quoted passages verbatim, including 'quantized, optimized and converted using the Qualcomm AI Engine Direct (QNN) and runs on the Qualcomm Hexagon NPU optimized for edge inference' and 'cognitoAI operates securely within the vehicle itself'."
+    },
+    {
+     "claim": "Smart Eye AI Co-Driver 'Sheila' combining in-cabin sensing with generative AI named CES 2025 Innovation Awards Honoree; press release circulated Jan 6, 2025; no on-device vs cloud specification",
+     "verdict": "confirmed",
+     "checked_url": "https://www.theautochannel.com/news/2025/01/06/1475827-smart-eye-showcases-next-generation-automotive-innovations-ces-2025.html",
+     "correction": "Release copy (URL dated 2025/01/06) confirms Sheila 'seamlessly integrates advanced sensing with generative AI to deliver context-aware, emotionally intelligent interactions' and was 'named a CES 2025 Innovation Awards Honoree'; it does not specify on-device vs cloud execution."
+    },
+    {
+     "claim": "Sony Honda Mobility CES 2026 release: AFEELA Personal Agent runs on Microsoft Azure OpenAI Service (cloud); AFEELA Intelligent Drive evolving toward end-to-end AI model integrating a VLM",
+     "verdict": "confirmed",
+     "checked_url": "https://www.prnewswire.com/news-releases/sony-honda-mobility-world-premieres-afeela-prototype-2026-at-ces-2026-302653275.html",
+     "correction": "Release dated Jan 05, 2026 confirms verbatim: Personal Agent 'leverages Microsoft Azure OpenAI Service' and 'evolving it into an end-to-end AI model that integrates Vision-Language Model (VLM)'."
+    },
+    {
+     "claim": "arXiv 2306.10159: fine-tuned VideoCLIP 98.44% on DMD and 97.86% on SAM-DD; single-frame fine-tuned CLIP 83.15% on StateFarm vs ResNet18 82.68 and MobileNet-v2 80.04; zero-shot CLIP 48.12 on DMD and 58.22 on StateFarm",
+     "verdict": "confirmed",
+     "checked_url": "https://arxiv.org/html/2306.10159v4",
+     "correction": "All six numbers match the paper's tables exactly."
+    },
+    {
+     "claim": "arXiv 2606.02273: Drive&Act description dataset; fine-tuned VLM ACCR 76 vs zero-shot 66 (10-point gain); cross-dataset generalization on DMD",
+     "verdict": "confirmed",
+     "checked_url": "https://arxiv.org/abs/2606.02273",
+     "correction": "Abstract confirms ACCR 76 vs 66 and cross-dataset evaluation on DMD showing generalization."
+    },
+    {
+     "claim": "arXiv 2606.26922: fast student 11.39M params / 3.08 ms vs slow VLM 8615.98 ms per sample (~2800x gap); VLM treated as optional probe / rare verification branch",
+     "verdict": "confirmed",
+     "checked_url": "https://arxiv.org/html/2606.26922",
+     "correction": "Paper confirms verbatim: 'The fast student contains 11.39M parameters and runs in 3.08 ms, while the slow VLM requires 8615.98 ms per sample' and 'We therefore treat the VLM as an optional probe or rare verification branch, not as the main deployed monitor.' 8615.98/3.08 = ~2797x, consistent with 'roughly 2800x'."
+    }
+   ]
+  }
+ ]
+}

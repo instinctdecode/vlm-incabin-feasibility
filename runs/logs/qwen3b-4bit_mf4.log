@@ -1,0 +1,22 @@
+[qwen3b-4bit_mf4] loading mlx-community/Qwen2.5-VL-3B-Instruct-4bit
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 6041.29it/s]
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 23301.69it/s]
+loaded in 1.4s, weights resident 3.07 GB
+  25/250 acc so far 1.000 p50 1.15s
+  50/250 acc so far 1.000 p50 1.15s
+  75/250 acc so far 1.000 p50 1.15s
+  100/250 acc so far 0.750 p50 1.15s
+  125/250 acc so far 0.600 p50 1.15s
+  150/250 acc so far 0.500 p50 1.15s
+  175/250 acc so far 0.549 p50 1.16s
+  200/250 acc so far 0.480 p50 1.16s
+  225/250 acc so far 0.480 p50 1.16s
+  250/250 acc so far 0.432 p50 1.16s
+{
+  "accuracy": 0.432,
+  "parse_fail_rate": 0.0,
+  "latency_p50_s": 1.156,
+  "latency_p95_s": 1.211,
+  "peak_memory_gb": 4.269
+}
+[qwen3b-4bit_mf4] DONE

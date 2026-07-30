@@ -1,0 +1,24 @@
+{
+  "run_id": "qwen7b-bf16_zs_p1",
+  "model": "mlx-community/Qwen2.5-VL-7B-Instruct-bf16",
+  "mode": "zeroshot",
+  "prompt": "p1",
+  "frames": 1,
+  "fewshot_per_class": 0,
+  "fusion_hr": null,
+  "n_eval": 250,
+  "warmup": 3,
+  "max_tokens": 96,
+  "temperature": 0.0,
+  "image_resolution": "query native 640x480",
+  "host": {
+    "machine": "Apple M4 Max 128GB",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "mlx": "0.32.0"
+  },
+  "manifest_sha256": "d8c7feee9106d4d458b5db78cbde3fe50562c3e6f0ad494ef42006503e82db5a",
+  "load_seconds": 3.52,
+  "weights_resident_gb": 16.585,
+  "model_disk_gb": 16.6,
+  "latency_note": "Measured on Apple M4 Max; NOT automotive-SoC latency. Use only for relative comparison."
+}

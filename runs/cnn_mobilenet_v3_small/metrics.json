@@ -1,0 +1,102 @@
+{
+  "run_id": "cnn_mobilenet_v3_small",
+  "model": "mobilenet_v3_small",
+  "mode": "cnn_baseline",
+  "prompt": null,
+  "n": 250,
+  "accuracy": 0.784,
+  "per_class_accuracy": {
+    "c0": 0.64,
+    "c1": 0.68,
+    "c2": 1.0,
+    "c3": 0.64,
+    "c4": 1.0,
+    "c5": 0.88,
+    "c6": 0.8,
+    "c7": 0.96,
+    "c8": 0.76,
+    "c9": 0.48
+  },
+  "confusion": {
+    "c0->c0": 16,
+    "c0->c5": 5,
+    "c0->c9": 4,
+    "c1->c1": 17,
+    "c1->c2": 1,
+    "c1->c3": 2,
+    "c1->c6": 4,
+    "c1->c8": 1,
+    "c2->c2": 25,
+    "c3->c0": 4,
+    "c3->c3": 16,
+    "c3->c5": 3,
+    "c3->c8": 2,
+    "c4->c4": 25,
+    "c5->c2": 1,
+    "c5->c5": 22,
+    "c5->c9": 2,
+    "c6->c6": 20,
+    "c6->c8": 4,
+    "c6->c9": 1,
+    "c7->c7": 24,
+    "c7->c8": 1,
+    "c8->c5": 3,
+    "c8->c6": 1,
+    "c8->c7": 1,
+    "c8->c8": 19,
+    "c8->c9": 1,
+    "c9->c0": 5,
+    "c9->c2": 1,
+    "c9->c5": 6,
+    "c9->c8": 1,
+    "c9->c9": 12
+  },
+  "parse_strict_rate": 1.0,
+  "parse_fallback_rate": 0.0,
+  "parse_fail_rate": 0.0,
+  "latency_p50_s": 0.007,
+  "latency_p95_s": 0.0079,
+  "latency_mean_s": 0.0068,
+  "forward_p50_s": 0.0046,
+  "forward_p95_s": 0.0052,
+  "params_m": 1.528,
+  "model_disk_gb": 0.0062,
+  "train_seconds": 292.1,
+  "train_images": 14709,
+  "val_best_acc": 0.6934,
+  "history": [
+    {
+      "epoch": 1,
+      "val_acc": 0.6426
+    },
+    {
+      "epoch": 2,
+      "val_acc": 0.6311
+    },
+    {
+      "epoch": 3,
+      "val_acc": 0.6154
+    },
+    {
+      "epoch": 4,
+      "val_acc": 0.6494
+    },
+    {
+      "epoch": 5,
+      "val_acc": 0.6587
+    },
+    {
+      "epoch": 6,
+      "val_acc": 0.6568
+    },
+    {
+      "epoch": 7,
+      "val_acc": 0.6934
+    },
+    {
+      "epoch": 8,
+      "val_acc": 0.6889
+    }
+  ],
+  "peak_memory_gb": 2.232
+}

@@ -1,0 +1,17 @@
+{
+  "ft_vs_resnet18": {
+    "ft_only_correct": 18,
+    "other_only_correct": 27,
+    "p_exact": 0.23269
+  },
+  "ft_vs_mobilenet": {
+    "ft_only_correct": 35,
+    "other_only_correct": 20,
+    "p_exact": 0.05806
+  },
+  "ft_vs_zeroshot": {
+    "ft_only_correct": 130,
+    "other_only_correct": 16,
+    "p_exact": 0.0
+  }
+}

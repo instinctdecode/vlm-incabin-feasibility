@@ -1,0 +1,21 @@
+Downloading: "https://download.pytorch.org/models/mobilenet_v3_small-047dcff4.pth" to $HOME/.cache/torch/hub/checkpoints/mobilenet_v3_small-047dcff4.pth
+  0%|          | 0.00/9.83M [00:00<?, ?B/s]  1%|▏         | 128k/9.83M [00:00<00:21, 477kB/s]  3%|▎         | 256k/9.83M [00:00<00:18, 530kB/s]  4%|▍         | 384k/9.83M [00:00<00:14, 683kB/s]  8%|▊         | 768k/9.83M [00:00<00:07, 1.27MB/s] 17%|█▋        | 1.62M/9.83M [00:01<00:03, 2.41MB/s] 32%|███▏      | 3.12M/9.83M [00:01<00:01, 4.81MB/s] 64%|██████▎   | 6.25M/9.83M [00:01<00:00, 9.18MB/s] 86%|████████▋ | 8.50M/9.83M [00:01<00:00, 12.1MB/s]100%|██████████| 9.83M/9.83M [00:01<00:00, 6.56MB/s]
+[cnn_mobilenet_v3_small] arch=mobilenet_v3_small params=1.53M train=14709 val=2678 device=mps
+  epoch 1/8 val_acc=0.6426
+  epoch 2/8 val_acc=0.6311
+  epoch 3/8 val_acc=0.6154
+  epoch 4/8 val_acc=0.6494
+  epoch 5/8 val_acc=0.6587
+  epoch 6/8 val_acc=0.6568
+  epoch 7/8 val_acc=0.6934
+  epoch 8/8 val_acc=0.6889
+{
+  "accuracy": 0.784,
+  "latency_p50_s": 0.007,
+  "forward_p50_s": 0.0046,
+  "params_m": 1.528,
+  "model_disk_gb": 0.0062,
+  "train_seconds": 292.1,
+  "val_best_acc": 0.6934
+}
+[cnn_mobilenet_v3_small] DONE

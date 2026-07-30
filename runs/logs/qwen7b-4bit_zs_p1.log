@@ -1,0 +1,22 @@
+[qwen7b-4bit_zs_p1] loading mlx-community/Qwen2.5-VL-7B-Instruct-4bit
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files: 100%|██████████| 12/12 [00:00<00:00, 4118.12it/s]
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files: 100%|██████████| 12/12 [00:00<00:00, 11707.76it/s]
+loaded in 2.2s, weights resident 5.64 GB
+  25/250 acc so far 0.840 p50 1.23s
+  50/250 acc so far 0.900 p50 1.23s
+  75/250 acc so far 0.933 p50 1.22s
+  100/250 acc so far 0.700 p50 1.22s
+  125/250 acc so far 0.560 p50 1.23s
+  150/250 acc so far 0.467 p50 1.23s
+  175/250 acc so far 0.509 p50 1.23s
+  200/250 acc so far 0.450 p50 1.23s
+  225/250 acc so far 0.476 p50 1.23s
+  250/250 acc so far 0.428 p50 1.23s
+{
+  "accuracy": 0.428,
+  "parse_fail_rate": 0.0,
+  "latency_p50_s": 1.225,
+  "latency_p95_s": 2.38,
+  "peak_memory_gb": 6.392
+}
+[qwen7b-4bit_zs_p1] DONE

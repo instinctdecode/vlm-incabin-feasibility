@@ -1,0 +1,16 @@
+{
+  "judge_model": "mlx-community/Qwen2.5-VL-32B-Instruct-4bit",
+  "note": "text-only judging vs known label; secondary to deterministic keyword metric",
+  "qwen3b-4bit-base_desc": {
+    "n": 25,
+    "judge_match_rate": 0.0
+  },
+  "qwen3b-4bit-ftfull_desc": {
+    "n": 25,
+    "judge_match_rate": 0.0
+  },
+  "qwen3b-4bit-ftholdout_desc": {
+    "n": 25,
+    "judge_match_rate": 0.0
+  }
+}

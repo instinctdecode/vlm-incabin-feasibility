@@ -1,0 +1,23 @@
+{
+  "n": 250,
+  "note": "HR values are SYNTHETIC context, not measurements",
+  "arousal_by_condition": {
+    "low": {
+      "normal": 247,
+      "low": 3
+    },
+    "normal": {
+      "normal": 249,
+      "low": 1
+    },
+    "high": {
+      "normal": 236,
+      "elevated": 14
+    }
+  },
+  "class_agreement_normal_vs_low": 0.996,
+  "class_agreement_normal_vs_high": 0.972,
+  "accuracy_low": 0.412,
+  "accuracy_normal": 0.412,
+  "accuracy_high": 0.412
+}
