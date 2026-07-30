@@ -1,5 +1,7 @@
 # Upstream issue draft — mlx-vlm chunked-prefill degeneration
 
+> **SUBMITTED 2026-07-27**: https://github.com/Blaizzy/mlx-vlm/issues/1755
+
 - **Target repo**: https://github.com/Blaizzy/mlx-vlm (bug localized to mlx-vlm:
   same prompt through mlx-lm works; mlx core unaffected)
 - **Submit URL**: https://github.com/Blaizzy/mlx-vlm/issues/new
@@ -44,13 +46,15 @@ repetition. The trigger is chunked prefill itself, not the content
 ### To Reproduce
 
 Self-contained script (generates its own synthetic images):
-[repro_multiimage_collapse.py] — attached / gist.
+[repro_multiimage_collapse.py](https://github.com/instinctdecode/vlm-incabin-feasibility/blob/main/docs/oss/repro_multiimage_collapse.py)
+(full run log: [repro_log.txt](https://github.com/instinctdecode/vlm-incabin-feasibility/blob/main/docs/oss/repro_log.txt))
 
 ```
 python repro_multiimage_collapse.py --model mlx-community/Qwen2.5-VL-3B-Instruct-4bit --with-mlx-lm-control
 ```
 
-Output on mlx-vlm 0.6.7 (abridged — k=2,4,8,12 lines omitted; full log attached;
+Output on mlx-vlm 0.6.7 (abridged — k=2,4,8,12 lines omitted; full log:
+[repro_log.txt](https://github.com/instinctdecode/vlm-incabin-feasibility/blob/main/docs/oss/repro_log.txt);
 git main @ 2026-07-26 (0.6.8) reruns of control/k=10/k=11/all three toggles give
 the same results, log section 4):
 
