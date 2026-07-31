@@ -51,9 +51,11 @@ def load_manifest(eval_dir: Path):
 
 def prep_fewshot_images(eval_dir: Path, data_root: Path, per_class: int, scratch: Path,
                         max_side: int = 224):
-    """Return (paths, class order). Examples resized to max side 224: with
-    ~2.5k+ prompt tokens of image content the MLX stack degenerates (see
-    runs/logs/multiimage_collapse_repro.md), so example token cost is bounded."""
+    """Return (paths, class order). Default max_side=224 was the workaround for
+    the mlx-vlm<=0.6.7 chunked-prefill bug (prompts >2048 tokens degenerated;
+    see runs/logs/multiimage_collapse_repro.md and docs/oss/). Fixed upstream in
+    0.6.8 (PR #1741) — larger sizes are safe there; default kept for
+    comparability with recorded runs."""
     from PIL import Image
     with open(eval_dir / "fewshot_manifest.csv") as f:
         rows = list(csv.DictReader(f))
@@ -89,8 +91,10 @@ def build_fewshot_messages(order, base_prompt: str):
 
 
 def resize_frames(paths, scratch: Path, max_side: int = 448):
-    """Uniformly downsize multiframe inputs (all of mf2/4/8) to max side 448 —
-    8 native-res frames exceed the MLX stack's stable multi-image budget."""
+    """Uniformly downsize multiframe inputs. Default 448 was the workaround for
+    the mlx-vlm<=0.6.7 chunked-prefill bug (8 native frames = 3,392 tokens
+    degenerated). Fixed upstream in 0.6.8 (PR #1741) — native res (--mf-max-side
+    0) is safe there; default kept for comparability with recorded runs."""
     from PIL import Image
     scratch.mkdir(parents=True, exist_ok=True)
     out = []
@@ -123,6 +127,17 @@ def main():
     ap.add_argument("--prompt", default="p1", choices=["p1", "p2", "p3"])
     ap.add_argument("--frames", type=int, default=1)
     ap.add_argument("--fewshot-per-class", type=int, default=1)
+    ap.add_argument("--fewshot-max-side", type=int, default=224,
+                    help="few-shot example max side px. 224 was the workaround "
+                         "for the mlx-vlm<=0.6.7 chunked-prefill bug (#1741, "
+                         "fixed in 0.6.8); larger values are safe post-fix")
+    ap.add_argument("--mf-max-side", type=int, default=448,
+                    help="multiframe frame max side px; 0 = native resolution. "
+                         "448 was the pre-#1741-fix workaround")
+    ap.add_argument("--prefill-step-size", type=int, default=0,
+                    help="0 = library default (chunked prefill at 2048). "
+                         "Set e.g. 8192 to disable chunking — used to isolate "
+                         "chunked-prefill memory/latency effects")
     ap.add_argument("--fusion-hr", default="normal", choices=["low", "normal", "high"])
     ap.add_argument("--limit", type=int, default=0, help="0 = full frozen set")
     ap.add_argument("--eval-dir", default="data/frozen_eval")
@@ -153,7 +168,8 @@ def main():
     if args.mode == "fewshot":
         fewshot_paths, fewshot_order = prep_fewshot_images(
             eval_dir, data_root, args.fewshot_per_class,
-            Path(args.runs_dir) / "_fewshot_224")
+            Path(args.runs_dir) / f"_fewshot_{args.fewshot_max_side}",
+            max_side=args.fewshot_max_side)
 
     frames_map = None
     if args.mode == "multiframe":
@@ -167,10 +183,13 @@ def main():
         "fusion_hr": args.fusion_hr if args.mode == "fusion" else None,
         "n_eval": len(manifest), "warmup": WARMUP,
         "max_tokens": args.max_tokens, "temperature": 0.0,
+        "prefill_step_size": args.prefill_step_size or "library default (2048, chunked)",
         "image_resolution": {
             "zeroshot": "query native 640x480",
-            "fewshot": "examples max-side 224 (interleaved labels), query native",
-            "multiframe": "all frames max-side 448 (uniform across mf2/4/8)",
+            "fewshot": f"examples max-side {args.fewshot_max_side} "
+                       "(interleaved labels), query native",
+            "multiframe": ("all frames native 640x480" if args.mf_max_side == 0
+                           else f"all frames max-side {args.mf_max_side}"),
             "fusion": "query native 640x480",
             "describe": "query native 640x480",
         }[args.mode],
@@ -206,7 +225,12 @@ def main():
         elif args.mode == "multiframe":
             fm = frames_map[row["img"]]
             native = [str(data_root / p) for p in fm["frames"][: args.frames]]
-            images = resize_frames(native, Path(args.runs_dir) / "_frames_448")
+            if args.mf_max_side > 0:
+                images = resize_frames(
+                    native, Path(args.runs_dir) / f"_frames_{args.mf_max_side}",
+                    max_side=args.mf_max_side)
+            else:
+                images = native
             text = prompt_multiframe(len(images))
         elif args.mode == "fusion":
             hr = synth_hr(row["img"], args.fusion_hr)
@@ -219,9 +243,13 @@ def main():
                 messages, add_generation_prompt=True, tokenize=False)
         else:
             prompt = apply_chat_template(processor, config, text, num_images=len(images))
+        gen_kwargs = {}
+        if args.prefill_step_size > 0:
+            gen_kwargs["prefill_step_size"] = args.prefill_step_size
         t1 = time.perf_counter()
         res = generate(model, processor, prompt, image=images,
-                       max_tokens=args.max_tokens, temperature=0.0, verbose=False)
+                       max_tokens=args.max_tokens, temperature=0.0, verbose=False,
+                       **gen_kwargs)
         dt = time.perf_counter() - t1
 
         out_text = res.text if hasattr(res, "text") else str(res)
