@@ -1,0 +1,19 @@
+=== model=mlx-community/Qwen2.5-VL-3B-Instruct-4bit mlx=0.32.0 mlx-vlm=0.6.8 platform=macOS-26.5.2-arm64-arm-64bit ===
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 1937.65it/s]
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]Fetching 11 files: 100%|██████████| 11/11 [00:00<00:00, 1317.34it/s]
+[control text-only ~4338 tok] -> OK                       out='4'
+[k= 1 images,   225 prompt tok] -> OK                       out='4'
+[k= 2 images,   419 prompt tok] -> OK                       out='2'
+[k= 4 images,   807 prompt tok] -> OK                       out='4'
+[k= 6 images,  1195 prompt tok] -> OK                       out='5'
+[k= 8 images,  1583 prompt tok] -> OK                       out='10'
+[k=10 images,  1971 prompt tok] -> OK                       out='10'
+[k=11 images,  2165 prompt tok] -> OK                       out='10'
+[k=12 images,  2359 prompt tok] -> OK                       out='10'
+[k=14 images,  2747 prompt tok] -> OK                       out='15'
+[k=11 images,  2165 tok, prefill=8192] -> OK                       out='10' (long prompt, chunking OFF -> expect OK)
+[k= 6 images,  1195 tok, prefill=512] -> OK                       out='5' (short prompt, chunking FORCED -> expect DEGENERATE)
+[text-only ~4.3k tok, prefill=8192] -> OK                       out='4' (text-only, chunking OFF -> expect OK)
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 1555.49it/s]
+[control mlx-lm 0.31.3 text-only 4348 tok, default chunking] -> OK                       out='4'
+
